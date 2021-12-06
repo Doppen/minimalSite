@@ -1,0 +1,24 @@
+@use '../abstracts' as *;
+
+$stepSize: 30px;
+
+.in_wizard__step {
+  height: $stepSize;
+  width: $stepSize;
+
+  border-radius: 50%;
+
+  background-color: #fff;
+  color: $color-blue ;
+  border: 1px solid #{$color-blue};
+  font-size: $fontSizeSmall;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in_wizard__step--completed, .in_wizard__step--active {
+  background-color: $color-blue;
+  color: #fff !important;
+}

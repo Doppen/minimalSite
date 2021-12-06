@@ -1,0 +1,51 @@
+@use '../abstracts' as *;
+
+$asideSize: 415px;
+$mainSize: $siteWrapWidth - $asideSize;
+
+.in_layoutMainAsideLeft, .in_layoutMainAsideRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+
+
+}
+
+
+@media (min-width: 800px) {
+  .in_layoutMainAsideLeft, .in_layoutMainAsideRight {
+    display:grid;
+
+    align-items: start;
+    width: 100%;
+
+    >* {
+      align-self: stretch;
+    }
+  }
+
+  .in_layoutMainAsideLeft {
+    grid-template-columns: #{$asideSize} minmax(auto,calc(100vw - #{$asideSize} )) ;
+
+  }
+
+  .in_layoutMainAsideRight {
+    grid-template-columns: auto #{$asideSize} ;
+
+  }
+
+  .in_layoutMainAsideLeft.in_wrapper {
+    justify-content: center;
+    grid-template-columns: #{$asideSize} minmax(auto,#{$mainSize}) ;
+
+  }
+
+  .in_layoutMainAsideRight.in_wrapper {
+    justify-content: center;
+    grid-template-columns:  minmax(auto,#{$mainSize}) #{$asideSize} ;
+
+  }
+
+}

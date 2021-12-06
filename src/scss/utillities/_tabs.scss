@@ -1,0 +1,39 @@
+@use '../abstracts' as *;
+
+
+
+.in_tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%;
+  border-bottom: 1px solid #{$color-grey2};
+
+
+  >* {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    font-size: $fontSizeDefault;
+    font-weight: $fontWeightDefault;
+    color: $colorText;
+    border-radius: 0;
+
+  }
+}
+
+
+.in_tabs--selected {
+  color: $color-blue !important;
+  border-bottom: 4px solid #{$color-blue} !important;
+}
+
+.in_tabs--centered {
+justify-content: center;
+}

@@ -1,0 +1,123 @@
+@use '../abstracts' as *;
+
+.in_pageHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+
+
+
+
+}
+
+.in_pageHeader--shadow {
+  box-shadow: 0 2px 12px rgba(0,0,0,.1);
+}
+
+
+@media (min-width: 900px) {
+  .in_pageHeader {
+      display:grid;
+      justify-content:space-between;
+      grid-template-columns: 2fr 1fr ;
+      align-items: center;
+      width: 100%;
+    }
+
+    .in_pageHeader.in_wrapper {
+        justify-content:center;
+        grid-template-columns: minmax(auto, $siteWrapWidthHalf) minmax(auto, $siteWrapWidthHalf) ;
+
+
+      }
+
+}
+
+
+
+
+
+
+
+.in_pageHeader__left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: $spaceBasic;
+}
+
+.in_pageHeader__right {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: $spaceBasic;
+}
+
+
+
+@media (min-width: 800px) {
+
+  .in_pageHeader__left {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .in_pageHeader__right {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: #{$siteWrapWidth}) {
+  .in_pageHeader__left {
+    // padding-left: 0;
+    // padding-right: 0;
+  }
+
+  .in_pageHeader__right {
+    // padding-left: $spaceBasic;
+    // padding-right: $spaceBasic;
+  }
+}
+
+
+
+.in_pageHeader__left nav, .in_pageHeader__right nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  >* {
+    margin-right: 30px;
+    color: #000C48;
+    font-weight: 500;
+  }
+
+}
+
+.in_pageHeader__right nav a:last-child {
+  margin-right: 0px;;
+}
+
+.in_pageHeader__logo {
+  img {
+    width: auto;
+    height: 50px;
+    margin: 20px 40px 20px 0;
+    transform: translate(0px,2px);
+  }
+}
+
+@media (min-width: 800px) {
+  .in_pageHeader__left nav, .in_pageHeader__right nav{
+    flex-wrap: nowrap;
+  }
+}

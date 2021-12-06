@@ -1,0 +1,26 @@
+{
+  "name": "ineo-ui-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buildSite.js",
+  "scripts": {
+    "build": "node buildSite.js",
+    "start": "nodemon -e js,scss,html,md -x \"npm run build\" "
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "_dist/*",
+      "src/components/markdown/*"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7",
+    "markdown": "^0.5.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.43.4"
+  }
+}

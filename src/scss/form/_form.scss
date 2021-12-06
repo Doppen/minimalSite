@@ -1,0 +1,144 @@
+@use '../abstracts' as *;
+
+.in_form {
+
+  input, select {
+    border-top: 1px solid $color-grey4;
+    border-left: 1px solid $color-grey4;
+    border-bottom: 1px solid $color-grey4;
+    border-right: 1px solid $color-grey4;
+    color: $color-grey5;
+    border-radius: $borderRadiusSmall;
+
+    padding: .5rem .5rem;
+    width: 100%;
+    max-width: 400px;
+
+    font-size: $fontSizeDefault;
+  }
+
+  input::placeholder {
+    font-size: $fontSizeXS;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    max-width: 40px;
+    height: 40px;
+  }
+
+  input[type="color"] {
+    max-width: 45px;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+  }
+
+  .in_label__name {
+
+  }
+
+  .in_label__info {
+    font-size: $fontSizeXS;
+  }
+
+
+}
+
+.in_field {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.in_is-error {
+  //border-right: 10px solid $color-signal-red !important;
+  border-bottom: 5px solid $color-signal-red !important;
+}
+
+
+.in_autocomplete {
+  background-color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,.2);
+  padding: .5rem;
+  border-top: 0px solid #{$color-grey2};
+  border-bottom: 1px solid #{$color-grey2};
+  border-left: 1px solid #{$color-grey2};
+  border-right: 1px solid #{$color-grey2};
+
+  li{
+    list-style: none;
+  }
+}
+
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+.in_switch {
+ position: relative;
+ display: inline-block;
+ width: 60px;
+ height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.in_switch input {
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+/* The slider */
+.in_slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #ccc;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+.in_slider:before {
+ position: absolute;
+ content: "";
+ height: 26px;
+ width: 26px;
+ left: 4px;
+ bottom: 4px;
+ background-color: white;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+input:checked + .in_slider {
+ background-color: $color-blue;
+}
+
+input:focus + .in_slider {
+ box-shadow: 0 0 1px #{$color-blue};
+}
+
+input:checked + .in_slider:before {
+ -webkit-transform: translateX(26px);
+ -ms-transform: translateX(26px);
+ transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.in_slider.round {
+ border-radius: 34px;
+}
+
+.in_slider.round:before {
+ border-radius: 50%;
+}

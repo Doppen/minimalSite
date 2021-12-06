@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.is_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.is_wrapper__div {
+  width: 100%;
+}
+
+.is_wrapper .is_wrapper__div {
+  width: 100%;
+  max-width: $siteWrapWidth;
+}

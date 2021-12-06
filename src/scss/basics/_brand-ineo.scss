@@ -1,0 +1,27 @@
+@use '../abstracts' as *;
+
+.in_logo--landscape {
+  width: 100%;
+  max-width: $logoWidthBasic;
+  height: auto;
+
+}
+
+.in_logo--square {
+
+}
+
+.in_logo--portrait {
+
+}
+
+
+.in_ineoPartof {
+	background-color: $color-grey1;
+	padding: 1rem;
+
+	img {
+		width: 100px;
+		height: auto;
+	}
+}

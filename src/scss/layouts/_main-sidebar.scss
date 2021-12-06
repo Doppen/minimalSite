@@ -1,0 +1,27 @@
+.claMainAside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+
+  main {
+    width: 100%;
+    max-width: 870px;
+  }
+
+  aside {
+    width: 100%;
+    max-width: 416px;
+    
+  }
+}
+
+@media (min-width: 600px) {
+  .claMainAside {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

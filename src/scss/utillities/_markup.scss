@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+
+.in_line--bottom {
+  border-bottom: 1px solid $colorBrandIneoGreyLightLine;
+}
+
+.in_line--extra {
+  border-color: $colorBrandIneoGreyMid;
+}
