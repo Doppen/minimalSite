@@ -17,6 +17,7 @@ function build() {
     .then(createFolder)
     //.then(markdown2Html)
     .then(registerPartials)
+    .then(createContentList)
     .then(() => {
       createSite();
       fs.copySync("src/images/", outputDir + "images/");
@@ -139,6 +140,17 @@ function createSass(pathFile) {
     }
   );
 }
+
+//prefab pages list on home
+function createContentList() {
+  let pages = []
+  sitedata.forEach((item) => {
+    pages.push(item);
+  });
+  pages.shift();
+  sitedata[0].pagesList = pages;
+}
+
 
 // generate files
 function generateHtml() {

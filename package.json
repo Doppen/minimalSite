@@ -1,11 +1,14 @@
 {
-  "name": "ineo-ui-kit",
+  "name": "Simple site builder",
   "version": "1.0.0",
   "description": "",
   "main": "buildSite.js",
   "scripts": {
     "build": "node buildSite.js",
-    "start": "nodemon -e js,scss,html,md -x \"npm run build\" "
+    "nodemon": "nodemon -e js,scss,html,md -x",
+    "sync": "browser-sync start --server '_dist' --files './src' ",
+    "startmon": " \"npm run build\" ",
+    "start": "npm run build & npm run nodemon & npm run sync"
   },
   "nodemonConfig": {
     "ignore": [
