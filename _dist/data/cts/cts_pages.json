@@ -1,28 +1,19 @@
 [
-  {
-    "id": "54qefq4r34",
-    "file_name": "index.html",
-    "template": "app/editor.html",
-    "title": "Prototype builder",
-    "pagesList": []
-  },
+
   {
     "id": "5j384ybfi29",
-    "file_name": "p1.html",
     "template": "cts/cts-welcome.html",
     "title": "Welcome page",
     "project": "cts"
   },
   {
     "id": "5j3sdfgrwert45",
-    "file_name": "p2.html",
     "template": "cts/cts-overview.html",
     "title": "Application overview",
     "project": "cts"
   },
   {
     "id": "5j9374yge3",
-    "file_name": "p3.html",
     "template": "cts/cts-application.html",
     "title": "Application edit",
     "project": "cts"

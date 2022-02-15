@@ -2,13 +2,18 @@
   "name": "Simple site builder",
   "version": "1.0.0",
   "description": "",
-  "main": "buildSite.js",
+  "main": "",
   "scripts": {
-    "build": "node buildSite.js",
+    "build": "node app/buildSite.js cts",
+    "server": "node app.js",
     "nodemon": "nodemon -e js,scss,html,md -x",
-    "sync": "browser-sync start --server '_dist' --files './src' ",
-    "startmon": " \"npm run build\" ",
-    "start": "npm run build & npm run nodemon & npm run sync"
+    "browsync": "browser-sync start --server '_dist' --files './src' ",
+    "start2": "npm run build & npm run nodemon & npm run browsync",
+    "start3": "npm run build  & npm run nodemon  & npm run server",
+
+    "prestart": "node data/cts/build_data.js",
+    "start": "npm run build ",
+    "poststart": "npm run nodemon"
   },
   "nodemonConfig": {
     "ignore": [

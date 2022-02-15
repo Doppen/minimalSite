@@ -1,0 +1,13 @@
+[
+    {
+      "id":"1",
+      "file_name": "index.html",
+      "template": "page.html",
+      "title": "Index page"
+    },{
+      "id":"2",
+      "file_name": "editor.html",
+      "template": "editor.html",
+      "title": "JSON editor"
+    }
+]

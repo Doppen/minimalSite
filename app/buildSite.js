@@ -4,10 +4,17 @@ const path = require("path");
 let sass = require("sass");
 let markdown = require("markdown").markdown;
 
-const sitedata = require("./data/site.json");
+const myArgs = process.argv.slice(2);
+const projct = myArgs[0];
+const sitedata = require('../data/'+projct+'/site.json');
 const outputDir = "_dist/";
 const outputVersion = 1;
 const partialsDir = "./src/components";
+
+
+
+
+
 
 build();
 
@@ -17,11 +24,12 @@ function build() {
     .then(createFolder)
     //.then(markdown2Html)
     .then(registerPartials)
-    .then(createContentList)
+    .then(createContentListPage)
     .then(() => {
       createSite();
-      fs.copySync("src/images/", outputDir + "images/");
-      fs.copySync("src/js/", outputDir + "js/");
+      fs.copySync("src/images/", outputDir +'/'+ projct +'/' + "images/");
+      fs.copySync("src/js/", outputDir +'/'+ projct +'/'+ "js/");
+      fs.copySync("data/", outputDir + "data/");
     })
     .catch((err) => {
       console.error(err);
@@ -30,44 +38,11 @@ function build() {
 
 function createSite() {
   generateHtml();
-  createSass("src/scss/style.scss");
+  createSass('src/scss/'+projct+'-style.scss');
+  createSass("src/scss/editor.scss");
 }
 
-// // convert markdown files to HTML components
-// function markdown2Html() {
-//   return new Promise((resolve, reject) => {
-//     let fileAmount = 0
-//     fs.readdir('markdown', (err, files) => {
-//       fileAmount = files.length
-//         files.forEach((file, i) => {
-//             fs.readFile('markdown/'+file, 'utf-8', function(error, source){
-//               let fileContent = source
-//               fileContent = replace(fileContent, '§cc', '"> </span>')
-//               fileContent = replace(fileContent, '§c', '<span class="clColorSample" style="background-color:')
-//               fileContent = replace(fileContent, '{{>', '@@@@')
-//               fileContent = markdown.toHTML(fileContent)
-//               fileContent = replace(fileContent, '@@@@', '<div class="showComps"><div class="showComponents">{{>')
-//               fileContent = replace(fileContent, '}}', '}}</div><div class="showComponentsCode"></div></div>')
-//               fileContent = replace(fileContent, '&gt;', '>')
-//               fileContent = replace(fileContent, '&lt;', '<')
-//               fileContent = replace(fileContent, '&quot;', '"')
-//               createFile(partialsDir+'/markdown/'+file, fileContent)
-//               if (fileAmount == (i+1)) {
-//                 resolve('markdown');
-//               }
-//             });
-//           })
-//         })
-//     });
 
-// function replace(str, orig, replacement) {
-//   let find = '&gt;';
-//   let rgx = new RegExp(orig, "g");
-//   let out = str.replace(rgx, replacement);
-//   return out
-// }
-
-// }
 
 // register partials (components) and generate site files
 function registerPartials() {
@@ -133,7 +108,7 @@ function createSass(pathFile) {
           .basename(pathFile)
           .replace(path.extname(pathFile), "");
         createFile(
-          outputDir + "css/v" + outputVersion + "/" + filename + ".css",
+          outputDir+'/'+projct + "/css/v" + outputVersion + "/" + filename + ".css",
           result.css.toString()
         );
       }
@@ -142,13 +117,23 @@ function createSass(pathFile) {
 }
 
 //prefab pages list on home
-function createContentList() {
+function createContentListPage() {
   let pages = []
   sitedata.forEach((item) => {
     pages.push(item);
   });
-  pages.shift();
-  sitedata[0].pagesList = pages;
+  sitedata.push(
+    {
+      "id": "5j384ybfi29",
+      "template": "projectPage.html",
+      "title": projct+"index page",
+      "project": projct,
+      "file_name": "index.html",
+      "pagesList": pages
+    }
+  )
+  // pages.shift();
+  // sitedata[0].pagesList = pages;
 }
 
 
@@ -161,8 +146,8 @@ function generateHtml() {
     ) {
       var template = handlebars.compile(source);
       var html = template(item);
-      createFile(outputDir + item.file_name, html);
-      //console.log(item.file_name+' created.');
+
+      createFile(outputDir +'/'+ projct +'/'+ item.file_name+'.html', html);
     });
   });
 }
@@ -177,6 +162,14 @@ function createFile(fileName, content) {
 // create folders
 function createFolder() {
   fs.mkdirSync(outputDir);
-  fs.mkdirSync(outputDir + "/css");
-  fs.mkdirSync(outputDir + "/css/v" + outputVersion + "/");
+    fs.mkdirSync(outputDir+'/'+projct);
+  fs.mkdirSync(outputDir +'/'+projct + "/css");
+  fs.mkdirSync(outputDir +'/'+projct + "/css/v" + outputVersion + "/");
+}
+
+
+function saveName(str) {
+  str = str.replaceAll(' ','-')
+  str = str.replaceAll('&','')
+  return str
 }

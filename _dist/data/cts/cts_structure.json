@@ -1,0 +1,293 @@
+[{
+    "nr": "a",
+    "title": "Notes Before Completing the Application",
+    "type": "h1"
+
+
+  },
+  {
+    "nr": "a",
+    "title": "Core trustworthy data repositories requirements",
+    "type": "h1"
+
+
+  },
+  {
+    "nr": "a",
+    "title": "Background & General Guidance",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": "a",
+    "title": "Glossary of Terms",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 0,
+    "title": "Background information",
+    "type": "h1"
+
+
+  },
+  {
+    "nr": 0,
+    "title": "Please provide context for your repository",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 1,
+    "title": "organizational infrastructure",
+    "type": "h1"
+
+
+  },
+  {
+    "nr": 1,
+    "title": "Mission/Scope",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 1,
+    "title": "The repository has an explicit mission to provide access to and preserve data in its domain.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 2,
+    "title": "License",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 2,
+    "title": "The repository maintains all applicable licenses covering data access and use and monitors compliance.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 3,
+    "title": "Continuity of access",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 3,
+    "title": "The repository has a continuity plan to ensure ongoing access to and preservation of its holdings.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 4,
+    "title": "Confidentiality/Ethics",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 4,
+    "title": "The repository ensures, to the extent possible, that data are created, curated, accessed, and used in compliance with disciplinary and ethical norms.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 5,
+    "title": "Organizational infrastructure",
+    "type": "h2"
+
+  },
+  {
+    "nr": 5,
+    "title": "The repository has adequate funding and sufficient numbers of qualified staff managed through a clear system of governance to effectively carry out the mission.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 6,
+    "title": "Expert guidance",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 6,
+    "title": "The repository adopts mechanism(s) to secure ongoing expert guidance and feedback (either inhouse or external, including scientific guidance, if relevant).",
+    "type": "q"
+
+
+  },
+  {
+    "nr": "",
+    "title": "Digital object management",
+    "type": "h1"
+
+
+  },
+  {
+    "nr": 7,
+    "title": "Data integrity and authenticity",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 7,
+    "title": "The repository guarantees the integrity and authenticity of the data.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 8,
+    "title": "Appraisal",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 8,
+    "title": "The repository accepts data and metadata based on defined criteria to ensure relevance and understandability for data users.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 9,
+    "title": "Documented storage procedures",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 9,
+    "title": "The repository applies documented processes and procedures in managing archival storage of the data.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 10,
+    "title": "Preservation plan",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 10,
+    "title": "The repository assumes responsibility for long-term preservation and manages this function in a planned and documented way",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 11,
+    "title": "Data quality",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 11,
+    "title": "The repository has appropriate expertise to address technical data and metadata quality and ensures that sufficient information is available for end users to make quality-related evaluations.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 12,
+    "title": "Workflows",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 12,
+    "title": "Archiving takes place according to defined workflows from ingest to dissemination.",
+    "type": "q"
+
+  },
+  {
+    "nr": 13,
+    "title": "Data discovery and identification",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 13,
+    "title": "The repository enables users to discover the data and refer to them in a persistent way through proper citation.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 14,
+    "title": "Data reuse",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 14,
+    "title": "The repository enables reuse of the data over time, ensuring that appropriate metadata are available to support the understanding and use of the data.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": "",
+    "title": "Technology",
+    "type": "h1"
+
+
+  },
+  {
+    "nr": 15,
+    "title": "Technical infrastructure",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 15,
+    "title": "The repository functions on well-supported operating systems and other core infrastructural software and is using hardware and software technologies appropriate to the services it provides to its Designated Community.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": 16,
+    "title": "Security",
+    "type": "h2"
+
+
+  },
+  {
+    "nr": 16,
+    "title": "The technical infrastructure of the repository provides for protection of the facility and its data, products, services, and users.",
+    "type": "q"
+
+
+  },
+  {
+    "nr": "",
+    "title": "Applicant feedback",
+    "type": "h1"
+
+
+  }
+]

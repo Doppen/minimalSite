@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Editor</title>
+      <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/v1/editor.css">
+      <link rel="stylesheet" href="css/temp.css">
+  </head>
+  <body>
+    <div class="tmpAllSite">
+      <h1>Editor</h1>
+      <div class="tmpLayoutAside">
+        <aside class="hcBasicSideMargin" id="nav">Aside</aside>
+        <main class="hcBasicSideMargin" id="content">
+
+          <button type="button" name="button" onclick="addNewPage()">New page</button><br>
+
+          <input type="hidden" name="" value=""  id="frm_id">
+
+          <label for="title">Title</label><br>
+          <input type="text" name="title" value="" id="frm_title"><br>
+
+          <label for="filename">Filename</label><br>
+          <input type="text" name="filename" value="" id="frm_file_name"><br>
+
+          <label for="template">Template</label><br>
+          <select class="" name="template" id="frm_templatesList"><br>
+            <option value="">1</option>
+          </select>
+          <input type="text" name="filename" value="" id="frm_template"><br>
+
+          <button type="button" name="button" onclick="storePages()">Save</button>
+
+          <form class="" action="http://localhost:3000/" method="post" id="storeForm">
+            <textarea name="content" rows="3" cols="80" id="sendContent"></textarea>
+          </form>
+
+
+
+        </main>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/app_loadInitJson.js"></script>
+    <script type="text/javascript" src="js/app_editor.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,211 @@
+[{
+  "id": "wer3cq29",
+  "file_name": "index.html",
+  "template": "new-util/util-content.html",
+  "title": "Ineo Branding",
+  "content": [{
+    "components": "markdown/md_introduction"
+  },{
+    "components": "markdown/md_logo"
+  }]
+},
+{
+  "id": "wer3cq29",
+  "file_name": "toolkit.html",
+  "template": "new-util/util-content.html",
+  "title": "Ineo toolkit",
+  "content": [{
+    "components": "markdown/md-ineo-header"
+  },{
+    "components": "markdown/md-ineo-header-ext-brand"
+  }]
+},
+ {
+  "id": "wer3cq29",
+  "file_name": "ui.html",
+  "template": "new-util/util-content.html",
+  "title": "Ineo interface",
+  "content": [
+    {
+      "components": "markdown/md-typo"
+    },
+    {
+      "components": "markdown/md-color"
+    },
+    {
+      "components": "markdown/md-spacing"
+    },
+    {
+      "components": "markdown/md-lists"
+    },
+    {
+      "components": "markdown/md-tables"
+    },
+    {
+      "components": "markdown/md-formElems"
+    },
+    {
+      "components": "markdown/md-alignment"
+    },
+    {
+      "components": "markdown/md-columns"
+    },
+    {
+      "components": "markdown/md-wrapper"
+    },
+        {
+          "components": "markdown/md-icons"
+        }
+  ]
+}, {
+  "id": "wer3cq29",
+  "file_name": "layouts.html",
+  "template": "new-util/util-content.html",
+  "title": "Ineo layouts",
+  "content": [{
+    "components": "markdown/md-ineo-layoutMainAsideLeft"
+  }]
+}, {
+  "id": "f9434frw",
+  "file_name": "elements.html",
+  "template": "new-util/pages.html",
+  "title": "Huc ui toolkit"
+}, {
+  "id": "fwerw3d29",
+  "file_name": "hulc.html",
+  "template": "new-util/lod-advise.html",
+  "title": "Huc ui toolkit",
+  "table": [{"id_person":560,"id_registration":187,"registration_maintype":1,"firstname":"izak","prefix":"","familyname":"frank","sex":"m","civil_status":"","role":3,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"","birth_date_flag":0,"birth_day":0,"birth_month":0,"birth_year":0,"birth_location":"","death":"n","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":561,"id_registration":187,"registration_maintype":1,"firstname":"mietje","prefix":"","familyname":"bannet","sex":"f","civil_status":"","role":2,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"","birth_date_flag":0,"birth_day":0,"birth_month":0,"birth_year":0,"birth_location":"","death":"n","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":562,"id_registration":188,"registration_maintype":1,"firstname":"leuntje","prefix":"","familyname":"weststrate","sex":"f","civil_status":"","role":1,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"13-03-1840","birth_date_flag":1,"birth_day":13,"birth_month":3,"birth_year":1840,"birth_location":2007,"death":"a","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":563,"id_registration":188,"registration_maintype":1,"firstname":"christiaan jz","prefix":"","familyname":"weststrate","sex":"m","civil_status":"","role":3,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"","birth_date_flag":0,"birth_day":0,"birth_month":0,"birth_year":0,"birth_location":"","death":"n","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":564,"id_registration":188,"registration_maintype":1,"firstname":"anna","prefix":"","familyname":"breker","sex":"f","civil_status":"","role":2,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"","birth_date_flag":0,"birth_day":0,"birth_month":0,"birth_year":0,"birth_location":"","death":"n","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":565,"id_registration":189,"registration_maintype":1,"firstname":"lourus","prefix":"","familyname":"back","sex":"m","civil_status":"","role":1,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"23-08-1889","birth_date_flag":1,"birth_day":23,"birth_month":8,"birth_year":1889,"birth_location":2845,"death":"a","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":566,"id_registration":189,"registration_maintype":1,"firstname":"jacobus","prefix":"","familyname":"back","sex":"m","civil_status":"","role":3,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"","birth_date_flag":0,"birth_day":0,"birth_month":0,"birth_year":0,"birth_location":"","death":"n","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":567,"id_registration":189,"registration_maintype":1,"firstname":"levina","prefix":"","familyname":"willeboordse","sex":"f","civil_status":"","role":2,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"","birth_date_flag":0,"birth_day":0,"birth_month":0,"birth_year":0,"birth_location":"","death":"n","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""},{"id_person":568,"id_registration":190,"registration_maintype":1,"firstname":"louwrina","prefix":"van","familyname":"popering","sex":"f","civil_status":"","role":1,"occupation":"","age_day":"","age_week":"","age_month":"","age_year":"","birth_date":"11-10-1843","birth_date_flag":1,"birth_day":11,"birth_month":10,"birth_year":1843,"birth_location":608,"death":"a","stillbirth":"","death_date_flag":0,"death_day":0,"death_month":0,"death_year":0,"death_location":"","mar_date":"","mar_date_flag":0,"mar_day":0,"mar_month":0,"mar_year":0,"mar_location":""}]
+}, {
+  "id": "f4545twee",
+  "file_name": "limesurvey.html",
+  "template": "clariah/limesurvey.html",
+  "title": "limesurvey"
+}, {
+  "id": "5464er95",
+  "file_name": "lamachine.html",
+  "template": "clariah/lamachine.html",
+  "title": "LaMachine"
+}, {
+  "id": "5464er95",
+  "file_name": "lamachineb.html",
+  "template": "clariah/lamachineHeader.html",
+  "title": "LaMachine-header"
+}, {
+  "id": "f94g545yw",
+  "file_name": "meertens-home.html",
+  "template": "meertens/meertens-home.html",
+  "title": "Meertens homepage",
+  "content_items":[
+    {"title":"Zoekmachine ISEBEL bevat zo’n 70 duizend sagen afkomstig uit Nederland, Duitsland en Denemarken",
+      "date":"25 juni 2021",
+      "link":"Lees verder over ISEBEL",
+      "thumb":"meertens/thumb01-150x150.png",
+      "text":"De zoekmachine ISEBEL bevat zo’n 70 duizend sagen afkomstig uit Nederland, Duitsland en Denemarken. Verhalenonderzoeker Theo Meder van het Meertens Instituut hoopt dat andere landen volgen."
+    },
+    {"title":"Koning spreekt met Meertens Instituut over wetenschap tijdens de coronacrisis",
+      "date":"2 juni 2021",
+      "link":"Lees verder over het gesprek met de koning",
+      "thumb":"meertens/thumb01-150x150.png",
+      "text":"Zijne Majesteit de Koning brengt donderdag 3 juni een digitaal werkbezoek aan de Koninklijke Nederlandse Akademie van Wetenschappen waarbij de impact van de coronacrisis op de wetenschap centraal staat."
+    },
+    {"title":"Louis Peter Grijp-lezing 2021 terug te kijken",
+      "date":"15 juni 2021",
+      "link":"Lees verder over de Louis Peter Grijp-lezing 2021",
+      "thumb":"meertens/thumb01-150x150.png",
+      "text":"Op 10 mei, toen muziekwetenschapper Ashley Burgoyne de Louis Peter Grijp-lezing 2021 uitsprak, wisten we nog niet wie de winnaar van het Eurovisie Songfestival zou worden."
+    }
+  ]
+}, {
+  "id": "t245fdfrf",
+  "file_name": "meertens-volg.html",
+  "template": "meertens/meertens-volg.html",
+  "title": "Cultuurhistoricus Dirk van Miert nieuwe directeur Huygens ING",
+  "content":"<p> Dirk van Miert, universitair hoofddocent vroegmoderne cultuurgeschiedenis aan de Universiteit Utrecht, wordt per 1 oktober de nieuwe directeur van het Huygens ING van de KNAW, een onderzoeksinstituut op het gebied van geschiedenis en cultuur. Hij volgt Lex Heerma van Voss op die met pensioen gaat.</p> <p> Dirk van Miert (1974) is momenteel hoofd van de afdeling Cultuurgeschiedenis van de Universiteit Utrecht. Hij legt zich toe op de vroegmoderne geschiedenis van universiteiten en geleerdheid. Ook geeft hij leiding aan een groot project (gefinancierd door de European Research Council) om met digitale technieken onderzoek te doen naar de “Republiek der Letteren”, de gemeenschap van geleerden en wetenschappers tussen 1500 en 1800.<br> <br> Na zijn opleiding Latinistiek promoveerde Van Miert in 2004 aan de UvA op een universiteitshistorisch onderzoek. Als postdoc werkte hij aan het prestigieuze Warburg Institute in Londen aan een veelgeprezen kritische editie van de correspondentie van de geleerde Joseph Scaliger (1540-1609). Vervolgens schreef hij op het Huygens ING een monografie over de emancipatie van bijbelfilologie in de zeventiende-eeuwse Nederlandse Republiek. Daarna werkte hij aan de Universiteit Utrecht, waar hij onder meer college gaf over de geschiedenis van natuurwetenschappen en geesteswetenschappen en over de theorie van geschiedenis.<br> <br> Met Dirk van Miert krijgt het Huygens Instituut voor Nederlandse Geschiedenis een interdisciplinair geschoolde, bevlogen en creatieve directeur die verbindingen legt tussen de geschiedenis van politiek, literatuur en wetenschap. Hij heeft veel ervaring met digital humanities zonder daarbij de meer traditionele onderzoeksmethodes uit het oog te verliezen. Zijn expertise komt goed van pas in de langetermijnstrategie van het Huygens ING om via big data, duurzame digitale infrastructuur en digitale technieken grip te krijgen op de interactie van culturen en identiteiten in de Nederlandse geschiedenis.</p> <h2> Over het Huygens ING</h2> <p> Het Huygens ING is een instituut van de Koninklijke Nederlandse Akademie van Wetenschappen. Het instituut verlegt de grenzen van het onderzoek naar Nederlandse geschiedenis en cultuur. Het ontsluit en analyseert oorspronkelijke bronnen met de meest geavanceerde digitale technieken en bestudeert deze niet alleen in hun nationale, maar juist ook in hun internationale context. De onderzoeksresultaten komen online en duurzaam beschikbaar als wetenschappelijke edities, datasets en bronnenuitgaven. Op deze manier speelt het instituut een fundamentele rol in het creëren en in stand houden van de nationale infrastructuur voor de geesteswetenschappen en draagt het actief bij aan betrouwbare kennis over de Nederlandse geschiedenis en cultuur.</p> <p> Het Huygens ING is een van de drie oprichters van het KNAW Humanities Cluster, waarin het samenwerkt met het Internationaal Instituut voor Sociale Geschiedenis en het Meertens Instituut.</p> <p> <span>foto: door&nbsp;Dick Boetekees</span></p>",
+  "content_items":[
+    {"title":"Zoekmachine ISEBEL bevat zo’n 70 duizend sagen afkomstig uit Nederland, Duitsland en Denemarken",
+      "date":"25 juni 2021",
+      "link":"Lees verder over ISEBEL",
+      "thumb":"meertens/thumb01-150x150.png",
+      "text":"De zoekmachine ISEBEL bevat zo’n 70 duizend sagen afkomstig uit Nederland, Duitsland en Denemarken. Verhalenonderzoeker Theo Meder van het Meertens Instituut hoopt dat andere landen volgen."
+    },
+    {"title":"Koning spreekt met Meertens Instituut over wetenschap tijdens de coronacrisis",
+      "date":"2 juni 2021",
+      "link":"Lees verder over het gesprek met de koning",
+      "thumb":"meertens/thumb01-150x150.png",
+      "text":"Zijne Majesteit de Koning brengt donderdag 3 juni een digitaal werkbezoek aan de Koninklijke Nederlandse Akademie van Wetenschappen waarbij de impact van de coronacrisis op de wetenschap centraal staat."
+    },
+    {"title":"Louis Peter Grijp-lezing 2021 terug te kijken",
+      "date":"15 juni 2021",
+      "link":"Lees verder over de Louis Peter Grijp-lezing 2021",
+      "thumb":"meertens/thumb01-150x150.png",
+      "text":"Op 10 mei, toen muziekwetenschapper Ashley Burgoyne de Louis Peter Grijp-lezing 2021 uitsprak, wisten we nog niet wie de winnaar van het Eurovisie Songfestival zou worden."
+    }
+  ]
+},
+{
+  "id": "2534v34r",
+  "file_name": "republic.html",
+  "template": "republic/header-test.html",
+  "title": "Republic header",
+  "content": []
+},
+{
+  "id": "2435234v34r",
+  "file_name": "ii.html",
+  "template": "test.html",
+  "title": "svg",
+  "content": []
+},
+{
+  "id": "243wertwer4r",
+  "file_name": "iii.html",
+  "template": "test2.html",
+  "title": "cross grid",
+  "content": []
+},
+{
+  "id": "2435234werertv34r",
+  "file_name": "min1.html",
+  "template": "minimal22/min-list.html",
+  "title": "Minimal accessible list page",
+  "content": []
+},
+{
+  "id": "2435234werertv34r",
+  "file_name": "min2.html",
+  "template": "minimal22/min-content.html",
+  "title": "Minimal accessible content page",
+  "content": []
+},
+{
+  "id": "245643q4ejv34r",
+  "file_name": "ll.html",
+  "template": "GoldenAgents/lenticularlens.html",
+  "title": "Lenticular lens",
+  "content": []
+},
+{
+  "id": "wergww",
+  "file_name": "oj-home.html",
+  "template": "openjournals/home-wp.html",
+  "title": "ojs home",
+  "content": []
+},
+{
+  "id": "hgw456",
+  "file_name": "oj-volg.html",
+  "template": "openjournals/volg-wp.html",
+  "title": "ojs volg",
+  "content": []
+},
+{
+  "id": "hgw456",
+  "file_name": "oj-list.html",
+  "template": "openjournals/list-wp.html",
+  "title": "ojs list",
+  "content": []
+}
+
+
+]

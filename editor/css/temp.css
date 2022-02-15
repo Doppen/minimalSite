@@ -1,0 +1,18 @@
+.tmpAllSite {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.tmpLayoutAside {
+  display: flex;
+  flex-direction: column;
+  flex: 1; }
+
+@media (min-width: 600px) {
+  .tmpLayoutAside {
+    display: flex;
+    flex-direction: row; }
+  aside {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.05); } }

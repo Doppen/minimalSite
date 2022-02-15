@@ -1,0 +1,378 @@
+[
+  {
+    "nr": "",
+    "question": "message",
+    "type": "Please note the following important points before you start the Core Trustworthy Data Repositories Requirements and check the box below to indicate that you have read and understood them. \n\n● Bullet lists of topics/questions for discussion and inclusion are suggested in the guidance text below each Requirements. However, these lists are neither exhaustive nor prescriptive. It is therefore highly preferred that responses are written in full prose. While short subtitles may be used, applicants should refrain from writing out the entire text given in each bullet point. \n\n● The CoreTrustSeal Board—and by extension, the CoreTrustSeal Secretariat and any designated reviewers—will treat all application responses, linked evidence, and compliance levels as sensitive during the certification process. Once the CoreTrustSeal for Data Repositories is awarded, the final version of the application, containing both the above information and reviewers’ comments, will be made publically available via the CoreTrustSeal Application Management Tool. The CoreTrustSeal Board will handle all information provided with the utmost care, but accepts no liability for any damage or losses resulting from the use of this information. \n\n● By requesting feedback, simple queries concerning your application may be directed to the CoreTrustSeal Secretariat. By submitting for review, your application will undergo formal assessment by two external reviewers, and will be subject to an administration fee of 1000 EUR (covering a three-year certification). The review process will begin only upon receipt of this fee. \n\n● Once awarded, the CoreTrustSeal for Data Repositories is applicable to one website of the certified repository only, and its location agreed upon in advance with the CoreTrustSeal Board. \n\nPlease also see the Extended Guidance for further details on the preferred structure and content for submissions, including use of acronyms, references to evidence, and so on: https://www.coretrustseal.org/why-certification/requirements/",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": "",
+    "question": "We have read and understood the notes concerning our application submission.",
+    "type": "check",
+    "options": "We have read and understood the notes concerning our application submission.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Repository Type. Select all relevant types from:",
+    "type": "check",
+    "options": "Domain or subject-based repository|Institutional repository|National repository system; including governmental|Publication repository|Library|Museum|Archive|Research project repository|Other (Please describe below)",
+    "Guidance": "Repository Type. This item will help reviewers understand what function your repository performs. Choose the best match for your repository type (select all that apply). If none of the categories is appropriate, feel free to provide another descriptive type. You may also provide further details to help the reviewer understand your repository type.",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Brief Description of Repository",
+    "type": "bigText",
+    "options": "Brief Description of Repository. Provide a short overview of the repository; in particular, please add information on the type of data accepted by the repository (i.e., the scope of its collection). If the repository has outsource partners, is part of a network, or of a parent organization, the response should ideally include a diagram and description of the overarching organizational structure.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Brief Description of the Repository’s Designated Community.",
+    "type": "bigText",
+    "options": "Designated Community. A clear definition of the Designated Community demonstrates that the applicant understands the scope, knowledge base, and methodologies—including preferred software/formats—of the user community or communities they are targeting. Please make sure that the response is sufficiently specific to enable reviewers to assess the adequacy of the curation and preservation measures described throughout the application.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Level of Curation Performed. Select all relevant types from:",
+    "type": "check",
+    "options": "A. Content distributed as deposited|B. Basic curation – e.g. brief checking; addition of basic metadata or documentation|C. Enhanced curation – e.g. conversion to new formats; enhancement of documentation|D. Data-level curation – as in C above; but with additional editing of deposited data for accuracy",
+    "Guidance": "Level of Curation. This item is intended to elicit whether the repository distributes its content to data consumers without any changes, or whether the repository adds value by enhancing the content in some way. All levels of curation assume initial deposits are retained unchanged and that edits are only made on copies of those originals. Annotations/edits must fall within the terms of the license agreed with the data producer and be clearly within the skillset of those undertaking the curation. Thus, the repository will be expected to demonstrate that any such annotations/edits are undertaken and documented by appropriate experts and that the integrity of all original copies is maintained. Knowing this will help reviewers in assessing other certification Requirements. Further details can be added that would help to understand the levels of curation you undertake.",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Comments",
+    "type": "bigText",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Insource/Outsource Partners. If applicable, please list them.",
+    "type": "bigText",
+    "options": "Insource/Outsource Partners. Please provide a list of Partners that your organization works with, describing the nature of the relationship (organizational, contractual, etc.), and whether the Partner has undertaken any trustworthy repository assessment. If a function or supporting evidence is not under the direct control of the applicant then it falls into this category. This may be with a host organization or other ‘insourcing’ relationship, or through outsourcing or other dependency on a third-party. Such relationships may include, but are not limited to: any services provided by an institution you are part of, storage provided by others as part of multicopy redundancy, or membership in organizations that may undertake stewardship of your data collection when a business continuity issue arises. Moreover, please list the certification requirements for which the Partner provides all, or part of, the relevant functionality/service, including any contracts or Service Level Agreements in place. Because outsourcing will almost always be partial, you will still need to provide appropriate evidence for certification Requirements that are not outsourced and for the parts of the data lifecycle that you control. Qualifications/certifications—including, but not limited to, the CoreTrustSeal certification (and its predecessors)—are preferred for outsource partners. However, it is not a necessity for them to be certified. We understand that this can be a complex area to define and describe, but such details are essential to ensure a comprehensive review process.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Summary of Significant Changes Since Last Application (if applicable).",
+    "type": "bigText",
+    "options": "Summary of Significant Changes Since Last Application. CoreTrustSeal certification has an expectation of continuous improvement. Repositories undergoing recertification should highlight briefly to the reviewers any significant changes in technical systems, Designated Community, funding, and so on during the previous three years. In doing so, please refer to any comments given to you by the reviewers of your previous CoreTrustSeal application. Detailed information on a change should be added to the appropriate Requirement.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 0,
+    "question": "Other Relevant Information.",
+    "type": "bigText",
+    "options": "Other Relevant Information. The repository may wish to add extra contextual information that is not covered in the Requirements but that may be helpful to the reviewers in making their assessment. For example, you might describe:* The usage and impact of the repository data holdings (citations, use by other projects, etc.).\n* A national, regional, or global role that the repository serves.\n* Any global cluster or network organization that the repository belongs to.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 1,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 1,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories take responsibility for stewardship of digital objects, and for ensuring that materials are held in the appropriate environment for appropriate periods of time. Depositors and users must be clear that preservation of and continued access to the data is an explicit role of the repository. \n\nFor this Requirement, please describe: \n\n* Your organization’s mission in preserving and providing access to data, and include links to explicit statements of this mission. \n\n* The level of approval that the mission has received within the organization. \n\nEvidence for this Requirement could take the form of an approved public mission statement, roles mandated by funders, policy statement signed off by governing board.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 2,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 2,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories must have an appropriate rights model covering data access and use, communicate about them with users, and monitor compliance. This Requirement relates to the access regulations and applicable licenses set by the data repository itself, as well as any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information. Evidence should demonstrate that the repository has sufficient controls in place according to the access criteria of their data holdings, as well as evidence that any relevant licenses or processes are well managed. \n\nFor this Requirement, please describe: \n\n● License agreements in use. \n\n● Conditions of use (Intellectual Property Rights, distribution, intended use, protection of sensitive data, etc.). \n\n● Documentation on measures in the case of noncompliance with conditions of access and use. \n\nNote that if all data holdings are completely public and without conditions imposed on users—such as attribution requirements or agreement to make secondary analysis openly available—then it can simply be stated. \n\nThe ethical and privacy provisions that impact on licenses are dealt with in R4 (Confidentiality/Ethics). Assurance that deposit licenses provide sufficient rights for the repository to maintain, preserve, and offer access to data should be covered under R10 (Preservation Plan).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 3,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 3,
+    "question": "Response",
+    "type": "bigText",
+    "options": "This Requirement covers the governance related to continued operation of the repository over time and during disasters, as well as evidence in relation to succession planning ; namely, the measures in place to ensure access to and availability of data holdings, both currently and in the future. Reviewers are seeking evidence that preparations are in place to address the risks inherent in changing circumstances, including in mission and/or scope. \n\nFor this Requirement, please describe: \n\n● The level of responsibility undertaken for data holdings, including any guaranteed preservation periods. \n\n● The medium-term (three- to five-year) and long-term (> five years) plans in place to ensure the continued availability and accessibility of the data. In particular, both the response to rapid changes of circumstance and long-term planning should be described, indicating options for relocation or transition of the activity to another body or return of the data holdings to their owners (i.e., data producers). For example, what will happen in the case of cessation of funding, which could be through an unexpected withdrawal of funding, a planned ending of funding for a time-limited project repository, or a shift of host institution interests? \n\nEvidence for this Requirement should relate specifically to governance. The technical aspects of business continuity, and disaster and succession planning should be covered in R15 (Technical infrastructure).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 4,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 4,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Adherence to ethical norms is critical to responsible science. Disclosure risk—for example, the risk that an individual who participated in a survey can be identified or that the precise location of an endangered species can be pinpointed—is a concern that many repositories must address. Evidence should demonstrate that the repository has good practices for data with disclosure risks, including guidance for depositors and users. This is necessary to maintain the trust of those agreeing to have personal/sensitive data stored in the repository. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● How does the repository comply with applicable disciplinary norms? \n\n● Does the repository request confirmation that data collection or creation was carried out in accordance with legal and ethical criteria prevailing in the data producer's geographical location or discipline (e.g., Ethical Review Committee/Institutional Review Board or Data Protection legislation)? \n\n● Are special procedures applied to manage data with disclosure risk? \n\n● Are data with disclosure risk managed appropriately to limit access? \n\n● Are data with disclosure risk distributed under appropriate conditions? \n\n● Are procedures in place to review disclosure risk in data, and to take the necessary steps to either anonymize files or to provide access in a secure way? \n\n● Are staff trained in the management of data with disclosure risk? \n\n● Are there measures in place if conditions are not complied with? \n\n● Does the repository provide guidance in the responsible deposit, download, and use of disclosive, or potentially disclosive data? \n\nThis Requirement is about the ethical and privacy provisions that impact the creation, curation, and use of the data. Details on any licenses in alignment with such ethical and privacy provisions should be covered in R2 (Licenses).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 5,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 5,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories need funding to carry out their responsibilities, along with a competent staff who have expertise in data archiving. However, it is also understood that continuity of funding is seldom guaranteed, and this must be balanced with the need for stability. \n\nFor this Requirement, responses should include evidence related to the following: \n\n● The repository is hosted by a recognized institution (ensuring long-term stability and sustainability) appropriate to its Designated Community. \n\n● The repository has sufficient funding, including staff resources, IT resources, and a budget for attending meetings when necessary. Ideally this should be for a three- to five-year period. \n\n● The repository ensures that its staff have access to ongoing training and professional development. \n\n● The range and depth of expertise of both the organization and its staff, including any relevant affiliations (e.g., national or international bodies), is appropriate to the mission. \n\nFull descriptions of the tasks performed by the repository—and the skills necessary to perform them—may be provided, if available. Such descriptions are not mandatory, however, as this level of detail is beyond the scope of core certification. \n\nAccess to objective expert advice beyond that provided by skilled staff is covered in R6 (Expert guidance).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 6,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 6,
+    "question": "Response",
+    "type": "bigText",
+    "options": "An effective repository strives to accommodate evolutions in data types, data volumes, and data rates, as well as to adopt the most effective new technologies in order to remain valuable to its Designated Community. Given the rapid pace of change, it is therefore advisable for a repository to secure the advice and feedback of expert users on a regular basis to ensure its continued relevance and improvement. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● Does the repository have in-house advisers, or an external advisory committee that might be populated with technical, curation, data science, and disciplinary experts? \n\n● How does the repository communicate with the experts for advice? \n\n● How does the repository communicate with its Designated Community for feedback? \n\nThis Requirement seeks to confirm that the repository has access to objective expert advice beyond that provided by skilled staff mentioned in R5 (Organizational infrastructure).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 7,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 7,
+    "question": "Response",
+    "type": "bigText",
+    "options": "The repository should provide evidence to show that it operates a data and metadata management system suitable for ensuring integrity and authenticity during the processes of ingest, archival storage, and data access. This Requirement covers the entire data lifecycle within the repository. \n\nTo protect the integrity of data and metadata, any intentional changes to data and metadata should be documented, including the rationale and originator of the change. Measures should be in place to ensure that unintentional or unauthorized changes can be detected and correct versions of data and metadata recovered. \n\nAuthenticity covers the degree of reliability of the original deposited data and its provenance, including the relationship between the original data and that disseminated, and whether or not existing relationships between datasets and/or metadata are maintained. \n\nFor this Requirement, responses on data integrity should include evidence related to the following: \n\n● Description of checks to verify that a digital object has not been altered or corrupted (i.e., fixity checks) from deposit to use. \n\n● Documentation of the completeness of the data and metadata. \n\n● Details of how all changes to the data and metadata are logged. \n\n● Description of version control strategy. \n\n● Usage of appropriate international standards and conventions (which should be specified). \n\nEvidence of authenticity management should relate to the following questions: \n\n● Does the repository have a strategy for data changes? Are data producers made aware of this strategy? \n\n● Does the repository maintain provenance data and related audit trails? \n\n● Does the repository maintain links to metadata and to other datasets? If so, how? \n\n● Does the repository compare the essential properties of different versions of the same file? How? \n\n● Does the repository check the identities of depositors?",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 8,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 8,
+    "question": "Response",
+    "type": "bigText",
+    "options": "The appraisal function is critical to evaluate whether data meet all criteria for selection and to ensure appropriate management for their preservation. Appraisal and reappraisal over time ensure data remain relevant and understandable to the Designated Community. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● Does the repository use a collection development policy to guide the selection of data for archiving? \n\n● What approach is used for data that do not fall within the mission/collection profile? \n\n● Does the repository have procedures in place to determine that the metadata required to interpret and use the data are provided? \n\n● Is there any automated assessment of metadata adherence to relevant schemas? \n\n● What is the repository’s approach if the metadata provided are insufficient for long-term preservation? \n\n● Does the repository publish a list of preferred formats? \n\n● Are checks in place to ensure that data producers adhere to the preferred formats? \n\n● What is the approach towards data that are deposited in non-preferred formats? \n\n● What is the process for removing items from your collection, also keeping in mind impact on existing persistent identifiers? \n\nThis Requirement covers the selection criteria applied at the point of deposit. Data quality and improvement during the curation process should be covered under R11 (Data quality).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 9,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 9,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories need to store data and metadata from the point of deposit, through the ingest process, to the point of access. Repositories that perform digital preservation must offer ‘archival storage’ in OAIS terms. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● How are relevant processes and procedures documented and managed? \n\n● Does the repository have a clear understanding of all storage locations and how they are managed? \n\n● Does the repository have a strategy for multiple copies? If so, what is it? \n\n● Are risk management techniques used to inform the strategy? \n\n● What checks are in place to ensure consistency across archival copies? \n\n● How is deterioration of storage media handled and monitored? \n\nDetails on the technical implementation of storage should be covered in R15 (Technical infrastructure), and specific arrangements for physical and logical security in R16 (Security).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 10,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 10,
+    "question": "Response",
+    "type": "bigText",
+    "options": "The repository, data depositors, and Designated Community need to understand the level of responsibility undertaken for each deposited item in the repository. The repository must have the rights to undertake these responsibilities. Procedures must be documented and their completion assured. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● Does the repository have a documented approach to preservation? \n\n● Is the level of responsibility for the preservation of each item understood? How is this defined? \n\n● Are plans related to future migrations or similar measures to address the threat of obsolescence in place? \n\n● Does the contract between depositor and repository provide for all actions necessary to meet the responsibilities? \n\n● Is the transfer of custody and responsibility handover clear to the depositor and repository? \n\n● Does the repository have the rights to copy, transform, and store the items, as well as provide access to them? \n\n● Are actions relevant to preservation specified in documentation, including custody transfer, submission information standards, and archival information standards? \n\n● Are there measures to ensure these actions are taken? \n\nRights concerning data access and use, and the monitoring of their compliance should be covered under R2 (Licenses).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 11,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 11,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories must ensure there is sufficient information about the data for the Designated Community to assess the quality of the data. Quality assessment becomes increasingly relevant when the Designated Community is multidisciplinary, where users may not have the personal experience to make an evaluation of quality from the data alone. Repositories must be able to evaluate completeness and quality of the data and metadata. \n\nData, or associated metadata, may have quality issues relevant to their research value, but this does not preclude their use if a user can make a well-informed decision on their suitability through provided documentation. \n\nFor this Requirement, please describe: \n\n● The approach to data and metadata quality taken by the repository. \n\n● Does the repository have quality control checks to ensure the completeness and understandability of data deposited? If so, please provide references to quality control standards and reporting mechanisms accepted by the relevant community of practice, and include details of how any issues are resolved (e.g., are the data returned to the data provider for rectification, fixed by the repository, noted by quality flags in the data file, and/or included in the accompanying metadata?). \n\n● The ability of the Designated Community to comment on, and/or rate data and metadata. \n\n● Whether citations to related works or links to citation indices are provided. \n\nThis Requirement refers to data quality standards and assurance during curation. Selection criteria are covered in R8 (Appraisal).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 12,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 12,
+    "question": "Response",
+    "type": "bigText",
+    "options": "To ensure the consistency of practices across datasets and services and to avoid ad hoc actions, workflows should be defined according to the repository’s activities and clearly documented. Provisions for managed change should be in place. The OAIS reference model can help to specify the workflow functions of a repository. \n\nFor this Requirement, responses should include evidence related to the following: \n\n● Workflows/business process descriptions. \n\n● Clear communication to depositors and users about handling of data. \n\n● Levels of security and impact on workflows (guarding privacy of subjects, etc.). \n\n● Qualitative and quantitative checking of outputs. \n\n● The types of data managed and any impact on workflow. \n\n● Decision handling within the workflows (e.g., archival data transformation). \n\n● Change management of workflows. \n\nThis Requirement confirms that all workflows are documented.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 13,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 13,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Effective data discovery is key to data sharing. Once discovered, datasets should be referenceable through full citations, including persistent identifiers to help ensure that data can be accessed into the future. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● Does the repository offer search facilities? \n\n● Does the repository maintain a searchable metadata catalogue to appropriate (internationally agreed) standards? \n\n● What persistent identifier systems does the repository use? \n\n● Does the repository facilitate machine harvesting of the metadata? \n\n● Is the repository included in one or more disciplinary or generic registries of resources? \n\n● Does the repository offer recommended data citations?",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 14,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 14,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories must ensure that data continues to be understood and used effectively into the future despite changes in technology and the Designated Community’s knowledge base. This Requirement evaluates the measures taken to ensure that data are reusable. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● Which metadata are provided by the repository when the data are accessed? \n\n● How does the repository ensure continued understandability of the data? \n\n● Are data provided in formats used by the Designated Community? Which formats? \n\n● Are measures taken to account for the possible evolution of formats? \n\nThe concept of ‘reuse’ is critical in environments in which secondary analysis outputs are redeposited into a repository alongside primary data, since the provenance chain and associated rights issues may then become increasingly complicated.",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 15,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 15,
+    "question": "Response",
+    "type": "bigText",
+    "options": "Repositories need to operate on reliable and stable core infrastructures that maximizes service availability. Furthermore, hardware and software used must be relevant and appropriate to the Designated Community and to the functions that a repository fulfils. The OAIS reference model specifies the functions of a repository in meeting user needs. \n\nFor this Requirement, responses should include evidence related to the following questions: \n\n● What standards does the repository use for reference? Are these international and/or community standards? How often are these reviewed? \n\n● How are the standards implemented? Are there any significant deviations from the standard? If so, please explain. \n\n● Does the repository have a plan for infrastructure development? If so, what is it? \n\n● Is a software inventory maintained and is system documentation available? \n\n● Is community-supported software in use? Please describe. \n\n● Are availability, bandwidth, and connectivity sufficient to meet the needs of the Designated Community? \n\n● Does the repository have a disaster plan and a business continuity plan? In particular, are procedures and arrangements in place to provide swift recovery or backup of essential services in the event of an outage? What are they? \n\nThe governance aspects of business continuity, disaster planning, and succession planning should be covered in R3 (Continuity of access). Details on the storage process should be covered in R9 (Documented storage procedures). Security arrangements are covered in R16 (Security).",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 16,
+    "question": "Compliance Level:",
+    "type": "Compliance",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 16,
+    "question": "Response",
+    "type": "bigText",
+    "options": "The repository should analyze potential threats, assess risks, and create a consistent security system. It should describe damage scenarios based on malicious actions, human error, or technical failure that pose a threat to the repository and its data, products, services, and users. It should measure the likelihood and impact of such scenarios, decide which risk levels are acceptable, and determine which measures should be taken to counter the threats to the repository and its Designated Community. This should be an ongoing process. \n\nFor this Requirement, please describe: \n\n● Your IT security system, employees with roles related to security (e.g., security officers), and any risk analysis tools (e.g., DRAMBORA*) you use. \n\n● What levels of security are required, and how these are supported. \n\n● Any authentication and authorization procedures employed to securely manage access to systems in use (e.g., Shibboleth, OpenAthens). \n\nThe storage processes and technical infrastructure that utilize these security measures should be covered in R9 (Documented storage procedures) and R15 (Technical Infrastructure), respectively. \n\n* https://www.repositoryaudit.eu/",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 17,
+    "question": "message",
+    "type": "These Requirements are not seen as final, and we value your input to improve the CoreTrustSeal certification procedure. Any comments on the quality of the Requirements, their relevance to your organization, or any other contribution, will be considered as part of future iterations.",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 17,
+    "question": "Response",
+    "type": "bigText",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": "",
+    "question": "message",
+    "type": "Thank you very much for completing the application form for CoreTrustSeal Data Repository certification. If you have any additional comments or documents that you would like to share with the CoreTrustSeal Board/Secretariat or the Reviewers, please add them below.",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 17,
+    "question": "Comment",
+    "type": "bigText",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  },
+  {
+    "nr": 17,
+    "question": "Attachment File",
+    "type": "fileField",
+    "options": "",
+    "Guidance": "",
+    "": ""
+  }
+]
