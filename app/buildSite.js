@@ -6,7 +6,7 @@ let markdown = require("markdown").markdown;
 
 const myArgs = process.argv.slice(2);
 const projct = myArgs[0];
-const sitedata = require('../data/'+projct+'/site.json');
+let sitedata = require('../data/'+projct+'/site.json');
 const outputDir = "_dist/";
 const outputVersion = 1;
 const partialsDir = "./src/components";
@@ -27,7 +27,7 @@ function build() {
     .then(createContentListPage)
     .then(() => {
       createSite();
-      fs.copySync("src/images/", outputDir +'/'+ projct +'/' + "images/");
+      fs.copySync("src/images/custom/"+ projct +'/', outputDir +'/'+ projct +'/' + "images/");
       fs.copySync("src/js/", outputDir +'/'+ projct +'/'+ "js/");
       fs.copySync("data/", outputDir + "data/");
     })
@@ -120,20 +120,23 @@ function createSass(pathFile) {
 function createContentListPage() {
   let pages = []
   sitedata.forEach((item) => {
-    pages.push(item);
+    pages.push({
+      "title": item.title,
+      "file_name": item.file_name
+    });
   });
+
   sitedata.push(
     {
-      "id": "5j384ybfi29",
+      "id": "index",
       "template": "projectPage.html",
-      "title": projct+"index page",
+      "title": projct+" index page",
       "project": projct,
       "file_name": "index.html",
-      "pagesList": pages
+      "pages_list": pages
     }
   )
-  // pages.shift();
-  // sitedata[0].pagesList = pages;
+
 }
 
 
@@ -147,7 +150,7 @@ function generateHtml() {
       var template = handlebars.compile(source);
       var html = template(item);
 
-      createFile(outputDir +'/'+ projct +'/'+ item.file_name+'.html', html);
+      createFile(outputDir +'/'+ projct +'/'+ item.file_name, html);
     });
   });
 }

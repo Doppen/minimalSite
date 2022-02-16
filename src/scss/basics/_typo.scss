@@ -2,7 +2,6 @@
 
 p, h1, h2,h3,h4,h5,h6 {
 	width: 100%;
-	max-width: 800px;
 }
 
 
@@ -45,4 +44,8 @@ strong {
 
 .in_text--XXXS {
 	font-size: $fontSizeXXXS;
+}
+
+h1 {
+	line-height: 120%;
 }

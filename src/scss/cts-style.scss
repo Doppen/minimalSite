@@ -1,23 +1,22 @@
-// @use 'basics/normalise';
-// @use 'utillities/accessibility';
-// @use 'utillities/flexbox';
-// @use 'utillities/wrapper';
-// @use 'utillities/tabs';
-// @use 'utillities/wizard';
-// @use 'utillities/markup';
-// @use 'utillities/utilities';
-// @use 'basics/pageDefault';
-// @use 'basics/typo';
-// @use 'basics/margin-padding';
-// @use 'basics/columns';
-// @use 'basics/lists';
-// @use 'basics/cards';
-// @use 'basics/icons';
-// @use 'basics/table';
-// @use 'toolkit/ineoPageHeader';
-// @use 'toolkit/ineoPagefooter';
-// @use 'toolkit/ineoHamburgerMenu';
-// @use 'layouts/layoutMainAside';
-// @use 'form/buttons';
-// @use 'form/form';
-// @use 'basics/colors';
+@use 'abstracts' as *;
+@use 'basics/normalise';
+@use 'basics/pageDefault';
+@use 'basics/typo';
+@use 'basics/colors';
+@use 'utillities/utilities';
+@use 'basics/margin-padding';
+@use 'basics/nav';
+@use 'layout/_layout-2colVertNav';
+
+$ctsBlueLight: hsl(209, 40%, 96%);
+$ctsBlueLight2: hsl(209, 20%, 89%);
+$ctsGreyDark: #313b48;
+
+
+.bgBlueLight {
+  background-color: $ctsBlueLight;
+}
+
+.hc_lineRight {
+  border-right: 1px solid $ctsBlueLight2;
+}

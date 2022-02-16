@@ -1,0 +1,53 @@
+$colWidth1: 300px;
+$colWidth2: 400px;
+
+.layout_2col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.layout_2col_1 {
+  width: 100%;
+}
+
+.layout_2col_2 {
+  width: 100%;
+}
+
+
+
+@media (min-width: 1000px) {
+  .layout_2col {
+    flex-direction: row;
+  }
+
+  .layout_2col_1 {
+    width: $colWidth1;
+  }
+
+  .layout_2col_2 {
+    width: 100%;
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+.layout_2col_1 {
+    width: $colWidth2;
+  }
+
+}
+
+
+
+
+
+
+// .layout_2col_1 {
+//   background-color: rgb(236, 186, 214)
+// }
+//
+// .layout_2col_2 {
+//   background-color: rgb(136, 186, 214)
+// }

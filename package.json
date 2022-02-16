@@ -5,13 +5,14 @@
   "main": "",
   "scripts": {
     "build": "node app/buildSite.js cts",
+    "buildJson": "node data/cts/build_data.js cts",
     "server": "node app.js",
-    "nodemon": "nodemon -e js,scss,html,md -x",
+    "nodemon": "nodemon -e js,scss,html,md -x  npm run build",
     "browsync": "browser-sync start --server '_dist' --files './src' ",
     "start2": "npm run build & npm run nodemon & npm run browsync",
     "start3": "npm run build  & npm run nodemon  & npm run server",
 
-    "prestart": "node data/cts/build_data.js",
+    "prestart": "npm run buildJson",
     "start": "npm run build ",
     "poststart": "npm run nodemon"
   },

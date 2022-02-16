@@ -1,0 +1,14 @@
+<div class="navNoList">
+  <ul>
+    {{#each appForms}}
+    {{#if typeH1}}
+      <li><strong>{{this.title}}</strong></li>
+    {{/if}}
+
+    {{#if typeH2}}
+      <li>{{this.title}}</li>
+    {{/if}}
+
+    {{/each}}
+  </ul>
+</div>

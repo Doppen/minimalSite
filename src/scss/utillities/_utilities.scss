@@ -1,5 +1,14 @@
 @use '../abstracts' as *;
 
+.hc_fullHeight {
+	min-height: 100vh;
+}
+
+
+
+
+
+
 .in_label{
 	font-size: $fontSizeSmall;
 	font-weight: $fontWeightBold;
@@ -12,10 +21,7 @@
 	color: $colorTextGrey;
 }
 
-.in_uri {
-	font-family: $fontFamilyMono;
-	font-size: $fontSizeSmall;
-}
+
 
 body > .in_wrapper {
 	margin-left: auto;

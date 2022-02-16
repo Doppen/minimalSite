@@ -1,5 +1,4 @@
 @use '../abstracts' as *;
-@use "sass:math";
 
 .in_columnsAuto {
   display: flex;
@@ -13,7 +12,7 @@
 }
 
 .in_gap {
-  gap: math.div($spaceGutter, 2);
+  gap: $spaceGutter/2;
 }
 
 

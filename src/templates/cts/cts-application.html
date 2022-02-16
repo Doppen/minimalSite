@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>{{title}}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/cts-style.css" />
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
-  </head>
-  <body>
-    <h1>{{title}}</h1>
-    1
-  </body>
-</html>
+{{> html-header}}
+
+
+{{> layout/col2_01}}
+
+<div class="in_padding--basic bgBlueLight hc_fullHeight hc_lineRight">
+  <img src="images/logo-CoreTrustSeal.png" alt="">
+  {{> cts/requirementsMenu}}
+</div>
+
+{{> layout/col2_02}}
+
+  {{> cts/requirementsMenu}}
+
+
+{{> layout/col2_03}}
+
+
+{{> html-footer}}
