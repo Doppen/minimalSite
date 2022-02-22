@@ -12,11 +12,38 @@ $ctsBlueLight: hsl(209, 40%, 96%);
 $ctsBlueLight2: hsl(209, 20%, 89%);
 $ctsGreyDark: #313b48;
 
-
 .bgBlueLight {
   background-color: $ctsBlueLight;
 }
 
 .hc_lineRight {
   border-right: 1px solid $ctsBlueLight2;
+}
+.hc_lineBot {
+  border-bottom: 1px solid $ctsBlueLight2;
+}
+
+.hc_logoMain {
+  width: auto;
+  height: 100%;
+  max-height: 50px;
+}
+
+@media (min-width: 1000px) {
+  .hc_logoMain {
+    max-height: 100px;
+  }
+}
+
+.hc_headerBar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1000px) {
+  .hc_headerBar {
+    height: 150px;
+  }
 }

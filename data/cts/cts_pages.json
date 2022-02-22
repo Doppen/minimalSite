@@ -7,14 +7,46 @@
   },
   {
     "id": "5j3sdfgrwert45",
-    "template": "cts/cts-overview.html",
-    "title": "Application overview",
+    "template": "cts/cts-dashboard.html",
+    "title": "Application overview - Applicant",
+    "states": {
+      "state_applic": true,
+      "state_review": false,
+      "state_admin": false
+    },
+    "project": "cts"
+  },
+  {
+    "id": "5j93ewrtfdsfg",
+    "template": "cts/cts-form-application.html",
+    "title": "Application form - Applicant",
+    "states": {
+      "state_applic": true,
+      "state_review": false,
+      "state_admin": false
+    },
+    "project": "cts"
+  },
+  {
+    "id": "5j3swertw",
+    "template": "cts/cts-dashboard.html",
+    "title": "Application overview - reviewer",
+    "states": {
+      "state_applic": false,
+      "state_review": true,
+      "state_admin": false
+    },
     "project": "cts"
   },
   {
     "id": "5j9374yge3",
-    "template": "cts/cts-application.html",
-    "title": "Application edit",
+    "template": "cts/cts-form-application.html",
+    "title": "Application form - reviewer",
+    "states": {
+      "state_applic": false,
+      "state_review": true,
+      "state_admin": false
+    },
     "project": "cts"
   }
 ]

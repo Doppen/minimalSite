@@ -1,5 +1,5 @@
-$colWidth1: 300px;
-$colWidth2: 400px;
+$colWidth1: 350px;
+$colWidth2: 450px;
 
 .layout_2col {
   display: flex;
@@ -27,16 +27,18 @@ $colWidth2: 400px;
   }
 
   .layout_2col_2 {
-    width: 100%;
-    margin-left: 40px;
+    width: calc( 100% - $colWidth1);
   }
 }
 
 @media (min-width: 1400px) {
-.layout_2col_1 {
+  .layout_2col_1 {
     width: $colWidth2;
   }
 
+  .layout_2col_2 {
+    width: calc( 100% - $colWidth2);
+  }
 }
 
 
