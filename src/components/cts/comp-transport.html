@@ -1,4 +1,12 @@
-<div class="transport stickyBottom">
+<div class="transport stickyBottom blockColored blockNegativeMargin">
+  {{#if transp}}
   <button type="button" name="button">Previous</button>
   <button type="button" name="button">Next</button>
+  {{/if}}
+
+  {{#if save}}
+  <button type="button" name="button">Save</button>
+  <button type="button" name="button">Next</button>
+  <button type="button" name="button">Next</button>
+  {{/if}}
 </div>

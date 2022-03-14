@@ -1,5 +1,7 @@
 <div class="navNoList">
 
+
+
     {{#each appForms}}
     {{#if typeH1}}
 
@@ -27,7 +29,7 @@
 
 
     {{#if typeH2}}
-      <li class="menuItem">
+      <li class="menuItem {{#if active}}active{{/if}}">
         <span>R{{this.nr}}</span>
         <span class="">{{this.title}}</span>
         <span class="tempIcon">
@@ -38,4 +40,6 @@
 
     {{/each}}
   </ul>
+
+  {{> cts/comp-transport transp=true}}
 </div>

@@ -45,8 +45,9 @@
 // 3col
 @media (min-width: $breakpoint3Col) {
   .layout_3col {
-    grid-template-columns: [col1] minMax(auto, $colWidth2) [col2] minMax(500px, $colWidthMid) [col3] auto [colEnd];
-    grid-template-rows: [rHead] $topBarHeight1 [r1] auto  [rEnd];
+    grid-template-columns: [col1] minMax(auto, $colWidth1) [col2] auto [col3] minMax(auto, $colWidth1) [colEnd];
+    grid-template-rows: [rHead] $topBarHeight2 [r1] auto  [rEnd];
+    column-gap: 60px;
 
     #col1 {
       grid-column: col1 / col2;     grid-row: rHead / [rEnd] }
@@ -70,7 +71,7 @@
 
 @media (min-width: $breakpoint3ColBig) {
   .layout_3col {
-    //grid-template-columns: [col1] minMax(auto, $colWidth2) [col2] auto [col3] $colWidth2 [colEnd];
+    grid-template-columns: [col1] minMax(auto, $colWidth2) [col2] auto [col3] minMax(auto, $colWidth2) [colEnd];
     grid-template-rows: [rHead] $topBarHeight2 [r1] auto  [rEnd];
     column-gap: 60px;
   }

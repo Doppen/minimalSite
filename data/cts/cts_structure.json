@@ -73,7 +73,8 @@
   {
     "nr": 4,
     "title": "Confidentiality/Ethics",
-    "type": "h2"
+    "type": "h2",
+    "active":true
 
 
   },
