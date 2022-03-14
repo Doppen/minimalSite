@@ -1,14 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>{{title}}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/cts-style.css" />
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
-  </head>
-  <body>
-    <h1>{{title}}</h1>
-    1
-  </body>
-</html>
+{{> html-header}}
+
+
+
+<div class="layout_3col hc_fullHeigh">
+  <div id="col1" class="hc_padding--basic">
+    {{> cts/comp-top-branding}}
+    {{> cts/comp-lists-overview}}
+  </div>
+
+  <main id="col2wide">
+    {{> cts/list-temp}}
+  </main>
+
+  <div id="topbar"  class="topbar">
+    {{> cts/comp-login-info}}
+    {{> cts/comp-message-box}}
+  </div>
+
+
+</div>
+
+
+<script src="js/responsive.js" charset="utf-8"></script>
+
+
+{{> html-footer}}

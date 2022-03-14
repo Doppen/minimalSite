@@ -1,36 +1,31 @@
 {{> html-header}}
-{{#if states.state_applic}} Im a Applic {{/if}}
-{{>layout/col2_01}}
 
-<div class="hc_padding--basic bgBlueLight hc_fullHeight hc_lineRight">
-  <div class="hc_headerBar">
-    <img src="images/logo-CoreTrustSeal.png" alt="" class="hc_logoMain" />
+
+
+<div class="layout_3col hc_fullHeigh">
+  <div id="col1" class="hc_padding--basic">
+    {{> cts/comp-top-branding}}
+    {{> cts/requirementsMenu}}
+    {{> cts/comp-transport}}
   </div>
 
-  {{> cts/requirementsMenu}}
-</div>
+  <main id="col2">
+    {{> cts/form-requirement}}
+  </main>
 
-{{> layout/col2_02}}
-
-<header class="hc_padding--basic hc_lineBot hc_headerBar">
-  <div>CoreTrustSeal Application Management Tool</div>
-</header>
-
-<div class="hc_padding--basic hc_lineBot">
-  <span>ATM</span> | <span>Edit application</span>
-</div>
-
-<div class="hc_padding--basic">
-  <div>
-    <h2>1. Mission/Scope</h2>
-    <p>
-      R1. The repository has an explicit mission to provide access to and
-      preserve data in its domain.
-    </p>
-
-    {{> cts/form-select-compliance}}
+  <div id="col3" class="">
+    {{> cts/comp-tabs}}
   </div>
-  <div>Guidance:</div>
+
+  <div id="topbar"  class="topbar">
+    {{> cts/comp-login-info}}
+    {{> cts/comp-message-box}}
+  </div>
+
 </div>
 
-{{> layout/col2_03}} {{> html-footer}}
+
+<script src="js/tabs.js" charset="utf-8"></script>
+
+
+{{> html-footer}}

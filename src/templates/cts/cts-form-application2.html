@@ -1,0 +1,36 @@
+{{> html-header}}
+{{#if states.state_applic}} Im a Applic {{/if}}
+{{>layout/col2_01}}
+
+<div class="hc_padding--basic bgBlueLight hc_fullHeight hc_lineRight">
+  <div class="hc_headerBar">
+    <img src="images/logo-CoreTrustSeal.png" alt="" class="hc_logoMain" />
+  </div>
+
+  {{> cts/requirementsMenu}}
+</div>
+
+{{> layout/col2_02}}
+
+<header class="hc_padding--basic hc_lineBot hc_headerBar">
+  <div>CoreTrustSeal Application Management Tool</div>
+</header>
+
+<div class="hc_padding--basic hc_lineBot">
+  <span>ATM</span> | <span>Edit application</span>
+</div>
+
+<div class="hc_padding--basic">
+  <div>
+    <h2>1. Mission/Scope</h2>
+    <p>
+      R1. The repository has an explicit mission to provide access to and
+      preserve data in its domain.
+    </p>
+
+    {{> cts/form-select-compliance}}
+  </div>
+  <div>Guidance:</div>
+</div>
+
+{{> layout/col2_03}} {{> html-footer}}

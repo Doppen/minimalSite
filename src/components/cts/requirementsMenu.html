@@ -1,12 +1,39 @@
 <div class="navNoList">
-  <ul>
+
     {{#each appForms}}
     {{#if typeH1}}
-      <li><strong>{{this.title}}</strong></li>
+
+
+
+      {{#if isFirst}}
+      {{else}}
+        </ul>
+      </div>
+      {{/if}}
+
+
+      {{#if isLast}}
+      {{else}}
+      <div class="blockColored blockNegativeMargin">
+        <em>{{this.title}}</em>
+        <ul>
+      {{/if}}
+
+
+
     {{/if}}
 
+
+
+
     {{#if typeH2}}
-      <li>{{this.title}}</li>
+      <li class="menuItem">
+        <span>R{{this.nr}}</span>
+        <span class="">{{this.title}}</span>
+        <span class="tempIcon">
+          <img src="images/icon-status-00.svg" alt="">
+        </span>
+      </li>
     {{/if}}
 
     {{/each}}

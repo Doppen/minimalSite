@@ -1,35 +1,16 @@
-[{
-    "nr": "a",
-    "title": "Notes Before Completing the Application",
-    "type": "h1"
-
-
-  },
+[
   {
-    "nr": "a",
-    "title": "Core trustworthy data repositories requirements",
-    "type": "h1"
-
-
-  },
-  {
-    "nr": "a",
-    "title": "Background & General Guidance",
-    "type": "h2"
-
-
-  },
-  {
-    "nr": "a",
-    "title": "Glossary of Terms",
-    "type": "h2"
+    "nr": 0,
+    "title": "Background information",
+    "type": "h1",
+    "isFirst":true
 
 
   },
   {
     "nr": 0,
-    "title": "Background information",
-    "type": "h1"
+    "title": "Repository context",
+    "type": "h2"
 
 
   },
@@ -42,7 +23,7 @@
   },
   {
     "nr": 1,
-    "title": "organizational infrastructure",
+    "title": "Organizational infrastructure",
     "type": "h1"
 
 
@@ -286,8 +267,7 @@
   {
     "nr": "",
     "title": "Applicant feedback",
-    "type": "h1"
-
-
+    "type": "h1",
+    "isLast": true
   }
 ]

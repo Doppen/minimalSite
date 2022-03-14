@@ -7,7 +7,7 @@ const projct = myArgs[0];
 let ctsStructure = require("../../data/cts/cts_structure.json");
 const ctsForms = require("../../data/cts/cts_formfields.json");
 let ctsPages = require("../../data/cts/cts_pages.json");
-
+let ctsApplications = require("../../data/cts/applicationList.json");
 // handel structure
 ctsStructure.forEach((struct, i) => {
   if (struct.type == 'q') {
@@ -31,6 +31,7 @@ ctsStructure.forEach((struct, i) => {
 // all pages
 ctsPages.forEach((item, i) => {
   item.appForms = ctsStructure
+  item.applicationlist = ctsApplications
 
   // filename
   let fileName = ''

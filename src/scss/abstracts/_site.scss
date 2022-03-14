@@ -1,13 +1,27 @@
 @use "sass:math";
 
-$siteWrapWidth: 1320px;
-$siteWrapWidthHalf: math.div(1320px, 2);
+$breakpoint2Col: 500px;
+$breakpoint3Col: 1100px;
+$breakpoint3ColBig: 1500px;
 
-// marging en padding
+$topBarHeight1: 100px;
+$topBarHeight2: 160px;
+
+$colWidth1: 300px;
+$colWidth2: 400px;
+$colWidthMid: 750px;
+
+$spaceGutter: 50px;
 $spaceBasic: 28px;
-$spaceGutter: 40px;
 
-// markup
-
-$borderRadiusBasic: 4px;
-$borderRadiusSmall: 2px;
+$siteWrapWidth: 1800px;
+// $siteWrapWidthHalf: math.div(1320px, 2);
+//
+// // marging en padding
+// $spaceBasic: 28px;
+// $spaceGutter: 40px;
+//
+// // markup
+//
+// $borderRadiusBasic: 4px;
+// $borderRadiusSmall: 2px;

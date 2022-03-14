@@ -1,0 +1,12 @@
+<div class="tabs">
+  <div class="tabHeader">
+    <button type="button" name="button" onclick="handleTabs('t1')" class="tabButton" id="bt1">Guidance</button>
+    <button type="button" name="button" onclick="handleTabs('t2')" class="tabButton" id="bt2">Review</button>
+    <button type="button" name="button" onclick="handleTabs('t3')" class="tabButton" id="bt3">URLs</button>
+  </div>
+  <div>
+    <div class="tabContent" id="t1">{{> cts/tab-guide }}</div>
+    <div class="tabContent" id="t2">{{> cts/tab-review }}</div>
+    <div class="tabContent" id="t3">{{> cts/tab-urls }}</div>
+  </div>
+</div>
