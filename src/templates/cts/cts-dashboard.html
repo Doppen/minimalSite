@@ -2,23 +2,29 @@
 
 
 
-<div class="layout_3col hc_fullHeigh">
-  <div id="col1" class="hc_padding--basic">
+<div class="hc_layout_3col hc_fullHeigh"><!-- layout container -->
+  <div id="col1" class="hc_padding--basic"> <!-- layout column 1 -->
     {{> cts/comp-top-branding}}
     {{> cts/comp-lists-overview}}
-  </div>
+  </div><!-- // layout column 1 -->
 
-  <main id="col2wide">
-    {{> cts/list-temp}}
-  </main>
 
-  <div id="topbar"  class="topbar">
+
+
+  <main id="col2wide"><!-- layout column 2 -->
+    {{> cts/list-applications}}
+  </main><!-- // layout column 2 -->
+
+
+
+
+  <div id="topbar" class="hc_topbar"> <!-- layout topbar -->
     {{> cts/comp-login-info}}
     {{> cts/comp-message-box}}
-  </div>
+  </div> <!-- // layout topbar -->
 
 
-</div>
+</div><!-- // layout container -->
 
 
 <script src="js/responsive.js" charset="utf-8"></script>

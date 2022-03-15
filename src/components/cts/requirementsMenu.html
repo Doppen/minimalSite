@@ -1,4 +1,5 @@
-<div class="navNoList">
+<!-- component requirements sidebar -->
+<div class="hc_requirementsMenu navNoList">
 
 
 
@@ -11,13 +12,15 @@
       {{else}}
         </ul>
       </div>
+      <!-- // component requirements category block -->
       {{/if}}
 
 
       {{#if isLast}}
       {{else}}
+      <!-- component requirements category block -->
       <div class="blockColored blockNegativeMargin">
-        <em>{{this.title}}</em>
+        <div class="hc_requirementsMenu__category">{{this.title}}</div>
         <ul>
       {{/if}}
 
@@ -29,13 +32,15 @@
 
 
     {{#if typeH2}}
-      <li class="menuItem {{#if active}}active{{/if}}">
-        <span>R{{this.nr}}</span>
-        <span class="">{{this.title}}</span>
-        <span class="tempIcon">
+      <!-- component requirements menu item -->
+      <li class="hc_requirementsMenu__item {{#if active}}hc_requirementsMenuItem--active{{/if}}">
+        <span class="hc_requirementsMenu__rNumber">R{{this.nr}}</span>
+        <span class="hc_requirementsMenu__name">{{this.title}}</span>
+        <span class="hc_requirementsMenu__StatusIcon">
           <img src="images/icon-status-00.svg" alt="">
         </span>
       </li>
+      <!-- // component requirements menu item -->
     {{/if}}
 
     {{/each}}
@@ -43,3 +48,4 @@
 
   {{> cts/comp-transport transp=true}}
 </div>
+<!-- // component requirements sidebar -->

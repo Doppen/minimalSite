@@ -1,0 +1,50 @@
+@use '../../abstracts' as *;
+
+.hc_requirementsMenu {
+
+}
+
+.hc_requirementsMenu__item {
+  display: flex;
+  line-height: 130%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+}
+
+
+.hc_requirementsMenu__rNumber {
+  width: 35px;
+  font-size: .8rem;
+}
+
+
+.hc_requirementsMenu__name {
+  align-self: flex-start;
+  width: 100%;
+}
+
+
+.hc_requirementsMenu__StatusIcon {
+  text-align: right;
+  img {
+    width: 15px;
+    height: auto;
+  }
+}
+
+.hc_requirementsMenu__category{
+  font-size: .9rem;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.hc_requirementsMenuItem--active {
+  background-color: $ctsBlue;
+  color: #fff !important;
+  margin-left: -1rem !important;
+  margin-right: -1rem !important;
+  padding: 15px 1rem;
+  font-weight: $fontWeightBold;
+}

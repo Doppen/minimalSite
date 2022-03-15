@@ -6,13 +6,13 @@
 @use 'utillities/utilities';
 @use 'basics/margin-padding';
 @use 'basics/nav';
+@use 'basics/lists';
+@use 'custom/cmt/ctm-login';
+@use 'custom/cmt/ctm-requirementsMenu';
 @use 'layout/_layout-2colVertNav';
 @use 'layout/_layout-3colVertNav';
 
-$ctsBlueLight: hsl(209, 60%, 96%); //hsl(209, 40%, 96%)
-$ctsBlueMid: hsl(209, 40%, 46%);
-$ctsBlueLight2: hsl(209, 20%, 89%);
-$ctsGreyDark: #313b48;
+
 
 h2 {
   line-height: 120%;
@@ -84,46 +84,11 @@ strong {
 }
 
 
-.menuItem {
-  display: flex;
-  line-height: 130%;
-  flex-direction: row;
-  //align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 15px;
 
-  >*:nth-of-type(1) {
-    width: 35px;
-    font-size: .8rem;
-    color: $ctsBlueMid;
 
-  }
-  >*:nth-of-type(2) {
-    align-self: flex-start;
-    width: 100%;
-  }
-}
 
-.active {
-  background-color: hsl(208, 100%, 28%);
-  color: #fff !important;
-  margin-left: -1rem !important;
-  margin-right: -1rem !important;
-  padding: 15px 1rem;
-  font-weight: $fontWeightBold;
-}
 
-.menuItemCat {
-  font-size: .9rem;
-}
 
-.tempIcon {
-  img {
-    width: 15px;
-    height: auto;
-    //padding: 15px;
-  }
-}
 
 
 
@@ -220,7 +185,7 @@ strong {
   margin-right: -1rem;
 }
 
-.topbar {
+.hc_topbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -228,7 +193,7 @@ strong {
 }
 
 @media (min-width: $breakpoint3Col) {
-  .topbar {
+  .hc_topbar {
     flex-direction:row-reverse;
     justify-content: flex-start;
     align-items: center;

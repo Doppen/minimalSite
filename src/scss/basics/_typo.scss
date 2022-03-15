@@ -5,8 +5,11 @@ p, h1, h2,h3,h4,h5,h6 {
 }
 
 
-.in_text--bold {
+.hc_text--bold {
 	font-weight: $fontWeightBold;
+}
+.hc_text--italic {
+	font-style: italic;
 }
 strong {
 	font-weight: $fontWeightBold;

@@ -10,7 +10,7 @@ let sitedata = require('../data/'+projct+'/site.json');
 const outputDir = "_dist/";
 const outputVersion = 1;
 const partialsDir = "./src/components";
-
+const config = require("../config.json");
 
 
 
@@ -31,6 +31,12 @@ function build() {
       fs.copySync("src/js/", outputDir +'/'+ projct +'/'+ "js/");
       fs.copySync("data/", outputDir + "data/");
     })
+    .then(() => {
+      setTimeout(function(){
+        //fs.copySync(outputDir +'/'+ projct +'/', config.custom.cts.exportPath);
+      }, 2000);
+
+    })
     .catch((err) => {
       console.error(err);
     });
@@ -39,7 +45,7 @@ function build() {
 function createSite() {
   generateHtml();
   createSass('src/scss/'+projct+'-style.scss');
-  createSass("src/scss/editor.scss");
+  //createSass("src/scss/editor.scss");
 }
 
 

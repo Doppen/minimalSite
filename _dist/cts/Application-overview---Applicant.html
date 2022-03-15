@@ -11,25 +11,30 @@
 
 
 
-<div class="layout_3col hc_fullHeigh">
-  <div id="col1" class="hc_padding--basic">
+<div class="hc_layout_3col hc_fullHeigh"><!-- layout container -->
+  <div id="col1" class="hc_padding--basic"> <!-- layout column 1 -->
+    <!-- Component: Branding -->
     <div class="topBranding">
-      <div class="">
+      <div class="topBranding__logo">
         <img src="images/logo-CoreTrustSeal.png" alt="" class="hc_logoMain" />
       </div>
     
-      <div class="">
+      <div class="topBranding__name">
         Application Management Tool
       </div>
     </div>
+    <!-- // Component: Branding -->
     <div class="blockColored blockNegativeMargin">
       <div>
         As an applicant
       </div>
-      <ul>
-        <li>1 application in draft</li>
-        <li>2 applications in review</li>
-      </ul>
+      <div class="hc_list hc_list_noBullets">
+        <ul>
+          <li>1 application in draft</li>
+          <li>2 applications in review</li>
+        </ul>
+      </div>
+    
     </div>
     
     
@@ -38,9 +43,11 @@
       <div>
         As a reviewer
       </div>
+      <div class="hc_list hc_list_noBullets">
       <ul>
         <li>2 applications in review</li>
       </ul>
+      </div>
     </div>
     
     
@@ -50,106 +57,155 @@
       <div>
         As an administrator
       </div>
+      <div class="hc_list hc_list_noBullets">
       <ul>
         <li>12 applications in draft</li>
         <li>20 applications in review</li>
         <li>5 applications in board review</li>
       </ul>
+      </div>
     </div>
-  </div>
+  </div><!-- // layout column 1 -->
 
-  <main id="col2wide">
-    <ul class="listTemp">
-      <li>
-        <div class="s1">Bulgarian Portal for Open Science</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Slovenian Social Science Data Archives (ADP)</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Data Archive for Social Sciences in Bosnia and Herzegovina</div>
-        <div class="">Draft</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">ImmPort Repository</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Bulgarian Portal for Open Science</div>
-        <div class="">Draft</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Slovenian Social Science Data Archives (ADP)</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Data Archive for Social Sciences in Bosnia and Herzegovina</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">ImmPort Repository</div>
-        <div class="">Draft</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Bulgarian Portal for Open Science</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Slovenian Social Science Data Archives (ADP)</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">Data Archive for Social Sciences in Bosnia and Herzegovina</div>
-        <div class="">Feedback available</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-      <li>
-        <div class="s1">ImmPort Repository</div>
-        <div class="">Draft</div>
-        <div class="">The National Centre for Information and Documentatio</div>
-      </li>
-    
-    
-    
-    </ul>
-  </main>
 
-  <div id="topbar"  class="topbar">
-    <div class="tmpLog">
-      <div class="">
+
+
+  <main id="col2wide"><!-- layout column 2 -->
+    <h2>My applications in draft</h2>
+    <!-- component list header -->
+    <div class="hc_list hc_list_noBullets hc_list_lines hc_list_segments">
+      <ul class="hc_text--italic">
+        <li>
+          <div class="">Application</div>
+          <div>Status</div>
+          <div>Participants</div>
+          <div>Institute</div>
+        </li>
+      </ul>
+    </div>
+    <!-- // component list header -->
+    
+    
+    
+    
+    
+    
+    <!-- component applications overview list -->
+    <div class="hc_list hc_list_noBullets hc_list_lines hc_list_segments">
+      <ul>
+        <li>
+          <div class="hc_text--bold">Bulgarian Portal for Open Science</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Slovenian Social Science Data Archives (ADP)</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Data Archive for Social Sciences in Bosnia and Herzegovina</div>
+          <div>Draft</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">ImmPort Repository</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Bulgarian Portal for Open Science</div>
+          <div>Draft</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Slovenian Social Science Data Archives (ADP)</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Data Archive for Social Sciences in Bosnia and Herzegovina</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">ImmPort Repository</div>
+          <div>Draft</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Bulgarian Portal for Open Science</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Slovenian Social Science Data Archives (ADP)</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">Data Archive for Social Sciences in Bosnia and Herzegovina</div>
+          <div>Feedback available</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+        <li>
+          <div class="hc_text--bold">ImmPort Repository</div>
+          <div>Draft</div>
+          <div>Bas Doppen <button type="button" name="button">Edit</button></div>
+          <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+        </li>
+    
+      </ul>
+    </div>
+    <!-- // component applications overview list -->
+  </main><!-- // layout column 2 -->
+
+
+
+
+  <div id="topbar" class="hc_topbar"> <!-- layout topbar -->
+    <!-- Component: Login Info -->
+    <div class="hc_loginInfo">
+      <div class="hc_loginInfo__name">
         Bas Doppen
       </div>
-      <div class="">
-        <select id="form-widgets-r1_compliance" name="form.widgets.r1_compliance:list" class="" size="1">
-          <option id="form-widgets-r1_compliance-novalue" value="--NOVALUE--"  selected="selected">Applicant</option>
-          <option id="form-widgets-r1_compliance-0" value="0-2013-not-applicable">Reviewer</option>
-          <option id="form-widgets-r1_compliance-1" value="1-2013-the-repository-has-not-considered-this-yet">Admin</option>
-          <option id="form-widgets-r1_compliance-2" value="2-2013-the-repository-has-a-theoretical-concept">Super admin</option>
+    
+      <div class="hc_loginInfo__role">
+        <select>
+          <option selected="selected">Applicant</option>
+          <option >Reviewer</option>
+          <option >Admin</option>
+          <option >Super admin</option>
         </select>
       </div>
-      <div class="">
+    
+      <!-- <div class="hc_loginInfo__avatar">
         <img src="images/icon-status-00.svg" alt="">
+      </div> -->
+    
+      <div class="hc_loginInfo__logout">
+        <button type="button" name="button">Logout</button>
       </div>
     </div>
+    <!-- // Component: Login Info -->
     <div class="messageBox">
     
     </div>
-  </div>
+  </div> <!-- // layout topbar -->
 
 
-</div>
+</div><!-- // layout container -->
 
 
 <script src="js/responsive.js" charset="utf-8"></script>
@@ -158,8 +214,8 @@
 <div class="pageSwitch">
   <a href="Application-overview---Applicant.html">1</a>
   <a href="Application-form---Applicant.html">2</a>
-<a href="Application-overview---reviewer.html">3</a>
-<a href="Application-form---reviewer.html">4</a>
+<!-- <a href="Application-overview---reviewer.html">3</a>
+<a href="Application-form---reviewer.html">4</a> -->
 </div>
 </body>
 </html>

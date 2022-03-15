@@ -2,7 +2,7 @@
 
 
 
-.layout_3col {
+.hc_layout_3col {
   display: flex;
   flex-direction: column;
   width: calc(100% - $spaceGutter);
@@ -15,7 +15,7 @@
 
 // 2 col
 @media (min-width: $breakpoint2Col) {
-  .layout_3col {
+  .hc_layout_3col {
 
     display: grid;
     grid-template-columns: [col1] minMax(auto, $colWidth1) [col2] auto [colEnd];
@@ -44,7 +44,7 @@
 
 // 3col
 @media (min-width: $breakpoint3Col) {
-  .layout_3col {
+  .hc_layout_3col {
     grid-template-columns: [col1] minMax(auto, $colWidth1) [col2] auto [col3] minMax(auto, $colWidth1) [colEnd];
     grid-template-rows: [rHead] $topBarHeight2 [r1] auto  [rEnd];
     column-gap: 60px;
@@ -70,7 +70,7 @@
 
 
 @media (min-width: $breakpoint3ColBig) {
-  .layout_3col {
+  .hc_layout_3col {
     grid-template-columns: [col1] minMax(auto, $colWidth2) [col2] auto [col3] minMax(auto, $colWidth2) [colEnd];
     grid-template-rows: [rHead] $topBarHeight2 [r1] auto  [rEnd];
     column-gap: 60px;
@@ -78,32 +78,8 @@
 }
 
 @media (min-width: $siteWrapWidth) {
-  .layout_3col {
+  .hc_layout_3col {
     margin-left: auto;
     margin-right: auto;
   }
 }
-
-
-
-
-
-
-
-
-// .layout_3col {
-//     background-color: rgb(204, 212, 235);
-//
-//   >*:nth-of-type(1n) {
-//     background: rgb(204, 235, 209);
-//   }
-//
-//   >*:nth-of-type(2n) {
-//     background: rgb(129, 223, 236);
-//   }
-//
-//   >*:nth-of-type(3n) {
-//     background: rgb(229, 223, 236);
-//   }
-//
-// }

@@ -26,27 +26,5 @@
       "state_admin": false
     },
     "project": "cts"
-  },
-  {
-    "id": "5j3swertw",
-    "template": "cts/cts-dashboard.html",
-    "title": "Application overview - reviewer",
-    "states": {
-      "state_applic": false,
-      "state_review": true,
-      "state_admin": false
-    },
-    "project": "cts"
-  },
-  {
-    "id": "5j9374yge3",
-    "template": "cts/cts-form-application.html",
-    "title": "Application form - reviewer",
-    "states": {
-      "state_applic": false,
-      "state_review": true,
-      "state_admin": false
-    },
-    "project": "cts"
   }
 ]
