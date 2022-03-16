@@ -18,14 +18,14 @@
 
 
 <!-- component applications overview list -->
-<div class="hc_list hc_list_noBullets hc_list_lines hc_list_segments">
+<div class="hc_list hc_list_noBullets hc_list_lines hc_list_segments hc_list_interactive">
   <ul>
     {{#each applicationlist}}
     <li>
       <div class="hc_text--bold">{{name}}</div>
       <div>{{status}}</div>
-      <div>{{participants}} <button type="button" name="button">Edit</button></div>
-      <div>KNAW Humanties Cluster <button type="button" name="button">Edit</button></div>
+      <div>{{participants}} <button type="button" name="button"><img src="images/icons/icon-edit.png" alt=""></button></div>
+      <div>KNAW Humanties Cluster <button type="button" name="button"><img src="images/icons/icon-edit.png" alt=""></button></div>
     </li>
     {{/each}}
 

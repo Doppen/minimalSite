@@ -28,6 +28,7 @@ function build() {
     .then(() => {
       createSite();
       fs.copySync("src/images/custom/"+ projct +'/', outputDir +'/'+ projct +'/' + "images/");
+      fs.copySync("src/images/icons/" , outputDir +'/'+ projct +'/' + "images/icons/");
       fs.copySync("src/js/", outputDir +'/'+ projct +'/'+ "js/");
       fs.copySync("data/", outputDir + "data/");
     })

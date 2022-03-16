@@ -3,7 +3,7 @@
 
 .hc_list {
   width: 100%;
-      font-size: $fontSizeSmall;
+
 
   ul {
     width: 100%;
@@ -31,11 +31,24 @@
 .hc_list_lines {
   li {
     border-bottom: 1px solid hsla(0, 0%, 28%, 0.25);
-    margin-bottom: 7px;
+    padding-top: 7px;
     padding-bottom: 7px;
   }
 
 }
+
+.hc_list_interactive {
+  li {
+    cursor: pointer;
+  }
+
+  li:hover {
+    background-color: $ctsBlueLight;
+  }
+
+}
+
+
 
 .hc_list_segments {
   li {

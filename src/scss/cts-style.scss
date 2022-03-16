@@ -4,9 +4,11 @@
 @use 'basics/typo';
 @use 'basics/colors';
 @use 'utillities/utilities';
+@use 'utillities/flexbox';
 @use 'basics/margin-padding';
 @use 'basics/nav';
 @use 'basics/lists';
+@use 'form/_buttons';
 @use 'custom/cmt/ctm-login';
 @use 'custom/cmt/ctm-requirementsMenu';
 @use 'layout/_layout-2colVertNav';
@@ -18,9 +20,14 @@ h2 {
   line-height: 120%;
 }
 
-strong {
-  	font-weight: $fontWeightBold;
+.hc_StickyBlock {
+  background-color: $ctsBlueMid;
+  padding: 10px;
+  border-radius: $borderRadiusBasic;
 }
+
+
+
 
 .bgBlueLight {
   background-color: $ctsBlueLight;
@@ -284,7 +291,7 @@ textarea, input, select, option {
   background-color: hsl(0, 0%, 98%);
   border: 1px solid hsl(0, 0%, 80%);
 
-  padding: 15px;
+  padding: 10px;
   font-size: $fontSizeDefault;
   border-radius: 10px;
 }

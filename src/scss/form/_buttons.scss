@@ -2,61 +2,48 @@
 
 
 button {
-  border: 1px solid $colorBrandIneoGreyLightLine;
+  border: 1px solid $ctsBlue;
   background-color: #fff;
-  color:$colorBrandClariahBlueMid;
+  color: $ctsBlue;
   border-radius: $borderRadiusBasic;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: $fontSizeSmall; //$fontSizeDefault;
   font-weight: $fontWeightBold;
   cursor: pointer;
   max-width: 300px;
   width: auto;
+
+  img {
+    height: 15px;
+    width: auto;
+  }
 }
 
 
-.in_b--blue {
-  border: 1px solid $colorBrandClariahBlueMid;
-  background-color: $colorBrandClariahBlueMid;
-  color: #fff;
-}
-
-.in_b--blue:hover {
-  border: 1px solid $color-blue-hover;
-  background-color: $color-blue-hover;
-}
 
 
-.in_b--magenta {
-  border: 1px solid $colorBrandIneoMagenat;
-  background-color: $colorBrandIneoMagenat;
-  color: #fff;
-}
-
-.in_b--magenta:hover {
-  border: 1px solid $color-red-hover;
-  background-color: $color-red-hover;
-}
-
-.in_b--noMarkUp {
+.hc_b--noMarkUp {
   border: 0px;
   background: none;
 }
 
+.hc_b--blue {
+  background-color: $ctsBlue;
+  color: #fff;
+}
 
 
-
-.in_b--xl {
+.hc_b--xl {
   padding: 19px 29px;
   font-size: $fontSizeDefault;
 }
 
-.in_b--xs {
-  padding: 7px 17px;
+.hc_b--xs {
+  padding: 3px 5px;
   font-size: $fontSizeSmall;
-}
 
-.in_b--xxs {
-  padding: 5px 10px;
-  font-size: $fontSizeSmall;
+  img {
+    height: 12px;
+    width: auto;
+  }
 }
