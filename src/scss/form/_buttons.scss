@@ -12,6 +12,7 @@ button {
   cursor: pointer;
   max-width: 300px;
   width: auto;
+  transition: transform .2s;
 
   img {
     height: 15px;
@@ -19,12 +20,25 @@ button {
   }
 }
 
-
+button:hover {
+  transform: scale(1.05, 1.05);
+}
 
 
 .hc_b--noMarkUp {
   border: 0px;
   background: none;
+}
+
+.hc_b--obtrusive {
+  border: 1px solid $ctsBlueMid;
+  background-color: #fff;
+  color: $ctsBlueMid2;
+  font-weight: $fontWeightDefault;
+
+  img {
+    opacity: .7;
+  }
 }
 
 .hc_b--blue {

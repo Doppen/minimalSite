@@ -8,9 +8,12 @@
 @use 'basics/margin-padding';
 @use 'basics/nav';
 @use 'basics/lists';
+@use 'basics/icons';
 @use 'form/_buttons';
+@use 'form/_form';
 @use 'custom/cmt/ctm-login';
 @use 'custom/cmt/ctm-requirementsMenu';
+@use 'custom/cmt/ctm-messaging';
 @use 'layout/_layout-2colVertNav';
 @use 'layout/_layout-3colVertNav';
 
@@ -274,34 +277,4 @@ h2 {
 
 .tmplabel {
 
-}
-
-label {
-  font-size: $fontSizeS;
-  margin-top: 25px;
-  display: block;
-	font-weight: $fontWeightBold;
-}
-
-textarea, input, select, option {
-  font-family: $fontFamilyDefault;
-  width: 100%;
-  //max-width: 600px;
-
-  background-color: hsl(0, 0%, 98%);
-  border: 1px solid hsl(0, 0%, 80%);
-
-  padding: 10px;
-  font-size: $fontSizeDefault;
-  border-radius: 10px;
-}
-
-textarea {
-  height: 25vh;
-}
-
-@media (min-width: $breakpoint3Col) {
-  textarea {
-    height: 45vh;
-  }
 }

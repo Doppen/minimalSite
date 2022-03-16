@@ -21,3 +21,16 @@
     padding: 5px;
   }
 }
+
+
+@media (min-width: $breakpoint3Col) {
+  .hc_loginInfo {
+    max-width: $colWidth1;
+  }
+}
+
+@media (min-width: $breakpoint3ColBig) {
+  .hc_loginInfo {
+    max-width: $colWidth2;
+  }
+}

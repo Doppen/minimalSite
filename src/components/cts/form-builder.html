@@ -1,0 +1,28 @@
+<h2>Form builder</h2>
+
+<div class="hc_list hc_list_noBullets hc_list_lines hc_list_segments hc_list_interactive">
+  <ul>
+  {{#each appForms}}
+
+  {{#if typeH1}}
+      <li class="hc_text--italic hc_text--S hc_marginBot05">{{this.title}}</li>
+
+  {{/if}}
+
+
+
+
+  {{#if typeH2}}
+
+    <li>
+      <span class="hc_list_segments--small">{{this.nr}}</span>
+      <span class="hc_list_segments--double hc_text--bold">{{this.title}}</span>
+      <span class="hc_list_segments--small"><button type="button" name="button" class="hc_b--xs hc_b--obtrusive"><img src="images/icons/icon-edit.png" alt=""></button></span>
+      <span class="hc_list_segments--small"><button type="button" name="button" class="hc_b--noMarkUp"><img src="images/icons/icon-drag.png" alt=""></button></span>
+    </li>
+
+  {{/if}}
+
+  {{/each}}
+  </ul>
+</div>

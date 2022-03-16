@@ -1,18 +1,13 @@
 [
   {
-    "id": "5j384ybfi29",
-    "template": "cts/cts-welcome.html",
-    "title": "Welcome page",
-    "project": "cts"
-  },
-  {
     "id": "5j3sdfgrwert45",
     "template": "cts/cts-dashboard.html",
     "title": "Application overview - Applicant",
     "states": {
       "state_applic": true,
       "state_review": false,
-      "state_admin": false
+      "state_admin": false,
+      "message": false
     },
     "project": "cts"
   },
@@ -23,7 +18,20 @@
     "states": {
       "state_applic": true,
       "state_review": false,
-      "state_admin": false
+      "state_admin": false,
+      "message": true
+    },
+    "project": "cts"
+  },
+  {
+    "id": "5j9w345234",
+    "template": "cts/cts-form-builder.html",
+    "title": "Application Form builder - Admin",
+    "states": {
+      "state_applic": false,
+      "state_review": false,
+      "state_admin": true,
+      "message": false
     },
     "project": "cts"
   }

@@ -1,3 +1,15 @@
-<div class="messageBox">
+{{#if message}}
+<!-- Component: message box -->
+<div class="hc_messageBox">
+
+  <div class="hc_messageBox__icon "><img src="images/icons/icon-warning.svg" alt="" class="hc_icon hc_icon--xl"></div>
+
+
+  <div class="hc_messageBox__text">Caution! You are watching an earlier version of this requirement.</div>
+
+
+  <div class="hc_messageBox__close"><img src="images/icons/icon-x.svg" alt="" class="hc_icon "></div>
 
 </div>
+<!-- // Component: message box -->
+{{/if}}

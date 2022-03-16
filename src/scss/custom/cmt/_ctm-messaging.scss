@@ -1,0 +1,33 @@
+@use '../../abstracts' as *;
+
+.hc_messageBox {
+  background-color: $ctsBlueLight;
+  width: 100%;
+  padding: 4px 6px;
+  border-radius: $borderRadiusBasic;
+  border: 1px solid $ctsBlueLight2;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  >* {
+    display: flex;
+    justify-content: center;
+  }
+
+
+}
+
+
+@media (min-width: $breakpoint3Col) {
+  .hc_messageBox {
+    margin-right: $spaceGutter ;
+  }
+}
+
+.hc_messageBox__icon, .hc_messageBox__close {
+  width: 2rem;
+  text-align: center;
+}

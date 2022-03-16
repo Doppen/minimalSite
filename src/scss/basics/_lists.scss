@@ -31,8 +31,8 @@
 .hc_list_lines {
   li {
     border-bottom: 1px solid hsla(0, 0%, 28%, 0.25);
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
 }
@@ -72,6 +72,14 @@
 }
 
 
+.hc_list_segments--small {
+  width: 1rem;
+  flex: none !important;
+}
+
+.hc_list_segments--double {
+  flex: 2 !important;
+}
 
 
 
