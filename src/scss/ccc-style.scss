@@ -17,6 +17,10 @@
 $marginGap: 1.5rem;
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,500;1,200&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 18px;
@@ -43,7 +47,11 @@ p {
 }
 
 
-
+.h1top {
+  transform: translateY(-3000px);
+  font-size: .1rem;
+  //margin-top: -1000px;
+}
 
 .colNav {
   display: flex;
@@ -86,6 +94,7 @@ p {
 
 .colContent, .colContentWide {
   background-color: #F7F4ED;
+  padding-bottom: 7rem;
 }
 
 .ccc_topBlock {
@@ -122,6 +131,12 @@ p {
   img {
     width: 100%;
     height: auto;
+  }
+  figcaption {
+    font-size: .85rem;
+    line-height: 130%;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -183,13 +198,73 @@ p {
   }
 }
 
+
+
+
+.colAside {
+  padding-left: $marginGap;
+  padding-right: $marginGap;
+
+  h2 {
+    margin-top: 2rem
+  }
+}
+
+.ccc_pageContentLabel {
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+
+a.footnote-link {
+  border: 1px solid $colorLink;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: .7rem;
+  transform: translateY(3px);
+  margin-left: 2px;
+}
+
+.timeline {
+  overflow-x: auto;
+  width: 100%;
+
+}
+.timeline_inner {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+}
+
+.timelineItem {
+  width: 150px;
+  margin-right: 1rem;
+  font-size: .8rem;
+  line-height: 130%;
+  padding: .5rem;
+  border: 1px solid $colorText;
+  flex: none;
+  background-color: rgba(0, 0, 0, 0.04)
+}
+
+
+
+
+
 .ccc_filterbox {
   background-color: #fff;
   border-radius: 6px ;
   padding: 1rem;
   margin-left: $marginGap;
   margin-right: $marginGap;
-  margin-bottom: 1rem;
+  margin-bottom: $marginGap;
 }
 
 @media (min-width: 1450px) {
@@ -199,12 +274,62 @@ p {
   }
 }
 
+#rotateIcon {
+  transition: transform .7s ease-in-out;
+  transform: rotate(0deg)
+}
 
-.colAside {
-  padding-left: $marginGap;
-  padding-right: $marginGap;
 
-  h2 {
-    margin-top: 2rem
+.ccc_filterbox_vis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: auto;
+    height: 1.1rem;
+  }
+
+  button {
+    img {
+      height: .5rem;
+    }
+  }
+}
+
+.ccc_filterbox_lists {
+  transition: height .7s ease-in-out;
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  div{
+    margin-top: 2rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    li  {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.ccc_filterbox_checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  input {
+    width: 20px;
+  }
+  label {
+    margin: 0;
   }
 }
