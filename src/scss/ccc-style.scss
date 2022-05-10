@@ -1,0 +1,210 @@
+@use 'abstracts' as *;
+@use 'basics/normalise';
+@use 'basics/pageDefault';
+@use 'basics/typo';
+@use 'basics/colors';
+@use 'utillities/utilities';
+@use 'utillities/flexbox';
+@use 'basics/margin-padding';
+@use 'basics/nav';
+@use 'basics/lists';
+@use 'basics/icons';
+@use 'min-a11y-style';
+@use 'form/_buttons';
+@use 'form/_form';
+@use 'layout/layout_3col-vertNav';
+
+$marginGap: 1.5rem;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,500;1,200&display=swap');
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: .3rem;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.colNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+  padding-left: $marginGap;
+  align-content: stretch;
+
+  .ccc_navigation {
+    position: sticky;
+    top: 3rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    a {
+      text-decoration: none;
+      color: $colorText;
+    }
+
+  }
+}
+
+.ccc_brand {
+  img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+  }
+}
+
+.ccc_bg_sand {
+  background-color: #F7F4ED;
+}
+
+.colContent, .colContentWide {
+  background-color: #F7F4ED;
+}
+
+.ccc_topBlock {
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1450px) {
+  .ccc_topBlock {
+    height: 18rem;
+  }
+}
+
+.ccc_project {
+  margin-top: auto;
+  position: sticky;
+  bottom: 1rem;
+}
+
+.ccc_main_content {
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $marginGap;
+  padding-right: $marginGap;
+
+  figure {
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+.ccc_vignette_cards {
+  width: 100%;
+  //max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: $marginGap;
+  justify-content: center;
+  padding-left: $marginGap;
+  padding-right: $marginGap;
+}
+
+@media (min-width: 1450px) {
+  .ccc_vignette_cards {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+
+.ccc_card {
+  background-color: #fff;
+  box-shadow: 2px 4px 14px 0 rgba(0,0,0,0.3);
+  border-radius: 6px;
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.ccc_card:hover {
+  box-shadow: 4px 6px 14px 0 rgba(0,0,0,0.15);
+  transform: translateY(-10px);
+}
+
+
+.ccc_card_thumb{
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px 6px 0 0;
+  }
+}
+
+.ccc_card_text {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+
+  h2 {
+    font-size: 18px;
+  }
+
+  a {
+    color: $colorText;
+  }
+}
+
+.ccc_filterbox {
+  background-color: #fff;
+  border-radius: 6px ;
+  padding: 1rem;
+  margin-left: $marginGap;
+  margin-right: $marginGap;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1450px) {
+  .ccc_filterbox {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+
+.colAside {
+  padding-left: $marginGap;
+  padding-right: $marginGap;
+
+  h2 {
+    margin-top: 2rem
+  }
+}

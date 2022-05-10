@@ -1,0 +1,22 @@
+[
+  {
+    "id": "5j3sdqertfgrwert45",
+    "template": "ccc/ccc-home.html",
+    "title": "ccc home",
+    "states": {
+      "has2col": true
+    },
+    "project": "ccc",
+    "file_name": "ccc_home.html"
+  },
+  {
+    "id": "5j93ewrwertwertfdsfg",
+    "template": "ccc/ccc-detail.html",
+    "title": "ccc detail",
+    "states": {
+      "hasAside": true
+    },
+    "project": "ccc",
+    "file_name": "ccc_detail.html"
+  }
+]
