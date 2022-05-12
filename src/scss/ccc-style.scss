@@ -127,6 +127,7 @@ p {
 
   figure {
     margin: 0;
+    width: 100%;
   }
   img {
     width: 100%;
@@ -331,5 +332,23 @@ a.footnote-link {
   }
   label {
     margin: 0;
+  }
+}
+
+.notesPop {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+
+
+  .notesPopInner {
+    width: 100%;
+    max-width: 800px;
+    padding: .5rem;
+    background-color: rgb(231, 130, 36);
+
   }
 }
