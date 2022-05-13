@@ -75,6 +75,8 @@ p {
     a {
       text-decoration: none;
       color: $colorText;
+      margin-bottom: .5rem;
+      line-height: 120%
     }
 
   }
@@ -217,19 +219,7 @@ p {
 }
 
 
-a.footnote-link {
-  border: 1px solid $colorLink;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: .7rem;
-  transform: translateY(3px);
-  margin-left: 2px;
-}
+
 
 .timeline {
   overflow-x: auto;
@@ -335,20 +325,55 @@ a.footnote-link {
   }
 }
 
+
+a.footnote-link {
+  border: 1px solid $colorLink;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: .7rem;
+  transform: translateY(3px);
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+
+
 .notesPop {
   position: fixed;
-  bottom: 0px;
+  bottom: -400px;
   left: 0px;
   right: 0px;
   display: flex;
   justify-content: center;
+  transition: bottom .7s ease-in-out;
 
 
   .notesPopInner {
     width: 100%;
+    font-size: .85rem;
+    line-height: 130%;
     max-width: 800px;
-    padding: .5rem;
-    background-color: rgb(231, 130, 36);
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+
+
+    .footnote-back-link-wrapper {
+      display: none;
+    }
+
+    #closeNote{
+      float: right;
+      margin-left: 1rem;
+
+
+    }
 
   }
 }
