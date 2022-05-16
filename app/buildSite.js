@@ -46,7 +46,7 @@ function build() {
 function createSite() {
   generateHtml();
   createSass('src/scss/'+projct+'-style.scss');
-  //createSass("src/scss/editor.scss");
+  createSass('src/scss/'+projct+'-style.scss' ,config.project[projct].wp_dir+'/css/'+projct+'-style.scss');
 }
 
 
@@ -100,7 +100,7 @@ function registerPartials() {
 }
 
 // create sass file
-function createSass(pathFile) {
+function createSass(pathFile, destination) {
   let filename = path.basename(pathFile).replace(path.extname(pathFile), "");
   sass.render(
     {
@@ -114,10 +114,18 @@ function createSass(pathFile) {
         let filename = path
           .basename(pathFile)
           .replace(path.extname(pathFile), "");
-        createFile(
-          outputDir+'/'+projct + "/css/v" + outputVersion + "/" + filename + ".css",
-          result.css.toString()
-        );
+          if (destination === undefined) {
+            createFile(
+              outputDir+'/'+projct + "/css/v" + outputVersion + "/" + filename + ".css",
+              result.css.toString()
+            );
+          } else {
+            createFile(
+              destination,
+              result.css.toString()
+            );
+          }
+
       }
     }
   );
@@ -158,6 +166,11 @@ function generateHtml() {
       var html = template(item);
 
       createFile(outputDir +'/'+ projct +'/'+ item.file_name, html);
+
+      // wp folder
+      if (config.project[projct].wp_dir !== undefined) {
+        createFile(config.project[projct].wp_dir +'/'+ config.project[projct].wp_tempfile+'/'+ item.file_name, html);
+      }
     });
   });
 }
