@@ -1,39 +1,50 @@
-{{> html-header}}
+{{> html_header}}
 
-{{> layout/col3_01 }}
+<div class="layout_3col_vertNav fullHeight">
 
-{{> ccc/left_bar}}
+  {{> comp_huc_aside_nav}}
 
-{{> layout/col3_02 }}
-<main class="ccc_main_content">
-  <section class="ccc_topBlock" aria-label="introduction to the site">
-    <span><h1 class="h1top">Colonial Children Connected</h1>
-      The <strong>Colonial Children Connected</strong> project shows the lives of (post)colonial children. These microhistories each follow the life of a child involved in (post)colonial child separation practices. The website presents the lives of the children in the form of vignettes. This project is part of the <strong>COAC</strong> project.
-      <small>Please <a href="">read the disclaimer</a> concerning the use of personal data.</small>
-    </span>
-  </section>
-</main>
-{{> ccc/filterbox }}
-<section class="ccc_vignette_cards"  aria-label="overview of the vignettes">
-  {{> ccc/card title="Raden Roro Moerjan" image="Raden-Roro-Moerjan.jpg"}}
-  {{> ccc/card title="Bido" image="bido02.png"}}
-  {{> ccc/card title="Sietske Croese-Mulder" image="Sietske.png"}}
-  {{> ccc/card title="Raden Roro Moerjan" image="Raden-Roro-Moerjan.jpg"}}
-  {{> ccc/card title="Bido" image="bido02.png"}}
-  {{> ccc/card title="Sietske Croese-Mulder" image="Sietske.png"}}
-  {{> ccc/card title="Raden Roro Moerjan" image="Raden-Roro-Moerjan.jpg"}}
-  {{> ccc/card title="Bido" image="bido02.png"}}
-  {{> ccc/card title="Sietske Croese-Mulder" image="Sietske.png"}}
+  <div id="colContentWide" class="colContentWide bgDIBrand01 {{#if hero1}}bgDIBrand01Gradient{{/if}}">
 
-</section>
 
-{{> layout/col3_03 }}
+    {{#if hero1}}
+      {{> comp_hero}}
+      <main id="main-content centerContent" class="read in_padding--basic maxWidth">
 
-{{> layout/col3_04 }}
+
+    {{else}}
+      <nav id="breadCrumb" class="breadCrumb topSpace in_padding--basic maxWidth"  aria-label="Breadcrumb">
+        {{{breadcrumb}}}
+      </nav>
+      <main id="main-content" class="read in_padding--basic maxWidth">
+        <h1>{{title}}</h1>
+    {{/if}}
+
+      {{{ htmlContent }}}
+
+  </main>
+  {{#if homeLists}}
+    {{> comp_homeLists}}
+  {{/if}}
+
+  {{> huc_footer}}
+
+
+
+  </div>
+</div>
+
+
+
+
+
+<button type="button" name="button" class="hamburgerButton" id="hamburger" onclick="hamburger()" title="click to open the menu">
+  <img src="images/icons/icon-hamburger.svg" alt="" class="hamburgerIcon" id="hamburgerImg" />
+</button>
+
 
 
 
 <script src="js/hamburger-menu.js" charset="utf-8"></script>
-<script src="js/filterBox.js" charset="utf-8"></script>
-
-{{> html-footer}}
+<script src="js/menu-a11y-submenu.js" charset="utf-8"></script>
+{{> html_footer}}
