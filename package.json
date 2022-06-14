@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "build": "node app/buildSite.js ccc",
-    "buildJson": "node data/cts/build_data.js ccc",
+    "buildJson": "node data/ccc/build_data.js ccc",
     "server": "node app.js",
     "nodemon": "nodemon -e js,scss,html,md -x  npm run build",
     "browsync": "browser-sync start --server '_dist' --files './src' ",

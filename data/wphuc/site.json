@@ -1,0 +1,22 @@
+[
+  {
+    "id": "5j3sdqertfgrwert45",
+    "template": "wphuc/wphuc-home.html",
+    "title": "ccc home",
+    "states": {
+      "has2col": true
+    },
+    "project": "wphuc",
+    "file_name": "wphuc_home.html"
+  },
+  {
+    "id": "5j93ewrwertwertfdsfg",
+    "template": "wphuc/wphuc-detail.html",
+    "title": "ccc detail",
+    "states": {
+      "hasAside": true
+    },
+    "project": "wphuc",
+    "file_name": "wphuc_detail.html"
+  }
+]
