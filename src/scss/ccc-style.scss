@@ -115,7 +115,7 @@ p {
 
 .ccc_project {
   margin-top: auto;
-  position: sticky;
+  position: fixed;
   bottom: 1rem;
 }
 
@@ -380,4 +380,40 @@ a.footnote-link {
     }
 
   }
+}
+
+
+.cccNestedList {
+  margin: 0;
+  list-style: none;
+  li {
+    margin: 0 0 0 0;
+    ul {
+      margin: 0 0 1rem 0;
+      li {
+        margin: 0 0 0 0;
+        font-size: .85rem;
+        list-style: none;
+      }
+    }
+  }
+}
+
+
+$hamSpace: 15px;
+.hamburgerButton {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 35px;
+
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  padding: $hamSpace;
+}
+
+.hamburgerIcon {
+  width: 30px;
+  height: auto;
 }
