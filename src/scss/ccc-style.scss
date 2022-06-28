@@ -116,7 +116,14 @@ p {
 .ccc_project {
   margin-top: auto;
   position: fixed;
-  bottom: 1rem;
+  bottom:0;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  margin: 0 -1rem ;
+  width: 290px;
+  font-size: .85rem;
+  font-style: italic;
+  color: hsl(0, 0%, 35%)
 }
 
 .ccc_main_content {

@@ -1,6 +1,6 @@
 @use '../abstracts' as *;
 
-.hc_padding--basic {
+.hc_padding--basic, .in_padding--basic {
 	padding-left: $spaceBasic;
 	padding-right: $spaceBasic;
 }

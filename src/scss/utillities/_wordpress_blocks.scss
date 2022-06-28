@@ -191,3 +191,27 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .has-very-dark-gray-background-color {
   background-color: #444;
 }
+
+.wp-block-cover .has-large-font-size{
+  font-size: calc(1rem + 1.3vw) !important;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+.wp-block-query {
+
+  ul{
+    max-width: 100%;
+  }
+
+  .wp-block-post {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 10px rgba(#000000, 0.13);
+  }
+}
+
+.wp-block-query.alignfull {
+  max-width: 1500px;
+}
