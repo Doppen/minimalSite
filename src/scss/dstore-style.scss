@@ -1,0 +1,48 @@
+@use 'abstracts' as *;
+@use 'basics/normalise';
+@use 'basics/pageDefault';
+@use 'basics/typo';
+@use 'basics/colors';
+@use 'utillities/utilities';
+@use 'utillities/flexbox';
+@use 'basics/margin-padding';
+@use 'basics/nav';
+@use 'basics/lists';
+@use 'basics/icons';
+@use 'min-a11y-style';
+@use 'form/_buttons';
+@use 'form/_form';
+@use 'layout/layout_3col-vertNav';
+
+$marginGap: 1.5rem;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,500;1,200&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: .3rem;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
