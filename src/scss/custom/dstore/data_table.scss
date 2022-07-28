@@ -1,0 +1,17 @@
+.block_item table {
+
+  max-width: 1800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid hsl(207, 19%, 85%);
+
+  tr:nth-child(odd) {
+    background: #F0F3F6;
+  }
+
+  thead tr {
+    text-align: left;
+    background: #fff;
+  }
+}

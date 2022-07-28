@@ -1,0 +1,15 @@
+@use 'vars' as *;
+
+
+.panel_edit {
+  height: auto;
+  position: fixed;
+  bottom: -1400px;
+}
+
+
+
+.fixedBottom {
+  bottom: 0;
+  height: auto;
+}

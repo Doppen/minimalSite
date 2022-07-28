@@ -46,7 +46,10 @@ function build() {
 function createSite() {
   generateHtml();
   createSass('src/scss/'+projct+'-style.scss');
-  createSass('src/scss/'+projct+'-style.scss' ,config.project[projct].wp_dir+'/css/'+projct+'-style.css');
+  if (typeof config.project[projct].wp_dir != "undefined") {
+     createSass('src/scss/'+projct+'-style.scss' ,config.project[projct].wp_dir+'/css/'+projct+'-style.css');
+  }
+
 }
 
 

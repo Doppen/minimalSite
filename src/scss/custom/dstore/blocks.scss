@@ -1,0 +1,110 @@
+@use 'vars' as *;
+
+.block_item,   {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  // padding-top: 2rem;
+  // padding-bottom: 2rem;
+  padding-left: $marginGap;
+  padding-right: $marginGap;
+  transition: border-bottom .5s ease-in-out, border-top .5s ease-in-out;
+  border-bottom: 1px solid hsl(0, 0%, 100%);
+  border-top: 1px solid hsl(0, 0%, 100%);
+  cursor: pointer;
+  overflow-x: scroll;
+
+  h1, h2, h3, h4, h5, h6, p, ul, ol, .editNote, {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .editNote {
+    visibility: hidden;
+    font-size: .9rem;
+    color: rgb(141, 170, 193);
+  }
+}
+
+.block_item:hover {
+  // border-bottom: 1px solid hsl(0, 0%, 90%);
+  // border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+.block_item:hover .editNote {
+  visibility: visible;
+}
+
+
+.block_item--active {
+
+    border-left: 8px solid hsl(156, 63%, 47%);
+
+
+
+  // border-bottom: 1px solid hsl(0, 0%, 90%);
+  // border-top: 1px solid hsl(0, 0%, 90%);
+  //background: linear-gradient(252deg, rgba(240,243,246,1) 0%, rgba(240,243,246,0) 100%);
+
+}
+
+
+
+.blockScroll {
+}
+
+.block_item:last-of-type {
+    margin-bottom: 60vh;
+}
+
+.block_new {
+  display: flex;
+  flex-direction: row;
+
+  >* {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+.newMenu {
+  margin-top: 1rem;
+  border-radius: 4px;
+  background-color: $color_bg;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-y: hidden;
+  height: 0px;
+  transition: height .4s ease-in-out;
+
+  >* {
+    width: 30%;
+    padding: 1rem .5rem;
+
+    li {
+      list-style: none;
+      margin-left: 0;
+    }
+  }
+}
+
+$newBlockButsize: 30px;
+.newBlockButton {
+  margin-left: calc( 0px - $newBlockButsize - $marginGap ) ;
+  margin-right: $marginGap;
+  width: $newBlockButsize;
+  height: $newBlockButsize;
+  border: none;
+  //margin-top: -8rem;
+}

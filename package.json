@@ -4,8 +4,8 @@
   "description": "Prototype builder tool",
   "main": "",
   "scripts": {
-    "build": "node app/buildSite.js wphuc",
-    "buildJson": "node data/wphuc/build_data.js wphuc",
+    "build": "node app/buildSite.js dstore",
+    "buildJson": "node data/dstore/build_data.js dstore",
     "server": "node app.js",
     "nodemon": "nodemon -e js,scss,html,md -x  npm run build",
     "browsync": "browser-sync start --server '_dist' --files './src' ",

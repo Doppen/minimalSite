@@ -1,0 +1,60 @@
+@use 'vars' as *;
+
+.panel_edit {
+  width: 100%;
+  overflow-x: hidden;
+  transition: bottom .4s ease-in-out;
+  box-shadow: -10px -10px 50px rgba(#000, 0.3);
+
+  display: flex;
+  justify-content: space-between;
+  //background-color: hsl(208, 18%, 85%);
+  background: linear-gradient(0deg, rgba(231,234,237,1) 0%, rgba(221,230,240,1) 100%);
+}
+
+
+.panel_edit_inner {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+
+  padding: 1rem $marginGap;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.edit_header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;margin-bottom: 1rem;
+}
+
+.edit_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_segments {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .edit_body {
+    flex-direction: row;
+  }
+}
+
+textarea {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  font-family: monospace;
+  font-size: 15px;
+}

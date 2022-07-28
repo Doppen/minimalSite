@@ -1,0 +1,71 @@
+@use 'vars' as *;
+
+$editPanelWidth1: 500px;
+$editPanelWidth2: 900px;
+
+.splitInterface {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  //max-width: 2000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.panel_display {
+  width: 100%;
+  //width: calc(100% - $editPanelWidth1);
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  min-height: 100vh;
+  transition: width 1s ease-in-out;
+  //calc(100vh - $headerHeight);
+
+}
+
+.panel_edit {
+  width: 0px;
+  max-width: $editPanelWidth1;
+  overflow-x: hidden;
+  transition: width 1s ease-in-out;
+  position: sticky;
+  top: 0px;
+  align-self: flex-start;
+
+  textarea {
+    width: 440px;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .panel_display {
+
+    width: calc(100% - $editPanelWidth2);
+  }
+  .panel_edit {
+    max-width: $editPanelWidth2;
+
+    textarea {
+      width: 750px;
+    }
+  }
+}
+
+
+
+.panel_edit_inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  min-height: 100vh;
+  background-color: #F0F3F6;
+  padding-left: $marginGap;
+  padding-right: $marginGap;
+
+}
