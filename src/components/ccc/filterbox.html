@@ -1,63 +1,115 @@
 <div class="ccc_filterbox">
 
-  <section class="ccc_filterbox_vis"  aria-label="filters for selecting a vignette">
+  <section class="ccc_filterbox_vis" aria-label="filters for selecting a vignette">
     <div class="ccc_filterbox_vL">
       <img src="images/icon_filter.png" alt="">
-        <strong>Filters </strong>
-        <div id="selectedFilters" class="selectedFilters">Colonial exploration, Disease, Guide, Medicine, Colonial exploration, Disease, Guide, Medicine,Colonial exploration, Disease, Guide, Medicine</div>
+      <strong>Filters </strong>
+      <div id="selectedFilters" class="selectedFilters">
+        <!-- Colonial exploration, Disease, Guide, Medicine, Colonial exploration, Disease, Guide, Medicine,Colonial exploration, Disease, Guide, Medicine -->
+      </div>
 
-      </div>
-      <div class="ccc_filterbox_vR">
-        <button type="button" name="button" onclick="handleFilterbox()">Clear&nbsp;filters</button>
-        <button type="button" name="button" onclick="handleFilterbox()"><img src="images/icon_arrow_down.png" alt="" id="rotateIcon" aria-label="Show or hide the filters"></button>
-      </div>
+    </div>
+    <div class="ccc_filterbox_vR">
+      <button type="button" name="button" onclick="handleFilterbox()">Clear&nbsp;filters</button>
+      <button type="button" name="button" onclick="handleFilterbox()"><img src="images/icon_arrow_down.png" alt="" id="rotateIcon" aria-label="Show or hide the filters"></button>
+    </div>
 
 
   </section>
 
-  <section id="optionBox" class="ccc_filterbox_lists"  aria-label="Select a filter">
-    <div>
-      <strong>Keywords</strong>
+
+  <section id="optionBox" class="ccc_filterbox_lists" aria-label="Select a filter" >
+    <div><strong>Geographical</strong>
       <ul>
-        {{> ccc/filterbox-checkbox label="Colonial exploration"}}
-        {{> ccc/filterbox-checkbox label="Disease"}}
-        {{> ccc/filterbox-checkbox label="Guide"}}
-        {{> ccc/filterbox-checkbox label="Medicine"}}
-        {{> ccc/filterbox-checkbox label="Missionaries"}}
-        {{> ccc/filterbox-checkbox label="Extinction trope"}}
-        {{> ccc/filterbox-checkbox label="Families"}}
+        <li><button class="" onclick="findInList('Belgium', 'ccc_vignette_cards')">Belgium</button></li>
+        <li><button class="" onclick="findInList('Dutch New Guinea', 'ccc_vignette_cards')">Dutch New Guinea</button></li>
+        <li><button class="" onclick="findInList('German East Africa', 'ccc_vignette_cards')">German East Africa</button></li>
+        <li><button class="" onclick="findInList('Ruanda-Urundi', 'ccc_vignette_cards')">Ruanda-Urundi</button></li>
+        <li><button class="" onclick="findInList('The Netherlands', 'ccc_vignette_cards')">The Netherlands</button></li>
+        <li><button class="" onclick="findInList('West Papua', 'ccc_vignette_cards')">West Papua</button></li>
       </ul>
     </div>
-
-
-
-    <div>
-      <strong>Keywords</strong>
+    <div><strong>Institutions</strong>
       <ul>
-        {{> ccc/filterbox-checkbox label="Colonial exploration"}}
-        {{> ccc/filterbox-checkbox label="Disease"}}
-        {{> ccc/filterbox-checkbox label="Guide"}}
-        {{> ccc/filterbox-checkbox label="Medicine"}}
-        {{> ccc/filterbox-checkbox label="Missionaries"}}
-        {{> ccc/filterbox-checkbox label="Extinction trope"}}
-        {{> ccc/filterbox-checkbox label="Families"}}
+        <li><button class="" onclick="findInList('Colonie d’enfants', 'ccc_vignette_cards')">Colonie d’enfants</button></li>
+        <li><button class="" onclick="findInList('Congregation of our Lady of Africa', 'ccc_vignette_cards')">Congregation of our Lady of Africa</button></li>
+        <li><button class="" onclick="findInList('École de Moniteurs', 'ccc_vignette_cards')">École de Moniteurs</button></li>
+        <li><button class="" onclick="findInList('Erfgoedcentrum voor Nederlands Kloosterleven (ENK)', 'ccc_vignette_cards')">Erfgoedcentrum voor Nederlands Kloosterleven (ENK)</button></li>
+        <li><button class="" onclick="findInList('Evangelische Missiongesellschaft für Deutsch-Ostafrika (EMDOA)', 'ccc_vignette_cards')">Evangelische Missiongesellschaft für Deutsch-Ostafrika (EMDOA)</button></li>
+        <li><button class="" onclick="findInList('Koninklijk Nederlands Aardrijkskundig Genootschap (KNAG)', 'ccc_vignette_cards')">Koninklijk Nederlands Aardrijkskundig Genootschap (KNAG)</button></li>
+        <li><button class="" onclick="findInList('Leipzig Mission', 'ccc_vignette_cards')">Leipzig Mission</button></li>
+        <li><button class="" onclick="findInList('Missionaries of the Sacred Heart (MSC)', 'ccc_vignette_cards')">Missionaries of the Sacred Heart (MSC)</button></li>
       </ul>
     </div>
-
-
-    <div>
-      <strong>Keywords</strong>
+    <div><strong>Other keywords</strong>
       <ul>
-        {{> ccc/filterbox-checkbox label="Colonial exploration"}}
-        {{> ccc/filterbox-checkbox label="Disease"}}
-        {{> ccc/filterbox-checkbox label="Guide"}}
-        {{> ccc/filterbox-checkbox label="Medicine"}}
-        {{> ccc/filterbox-checkbox label="Missionaries"}}
-        {{> ccc/filterbox-checkbox label="Extinction trope"}}
-        {{> ccc/filterbox-checkbox label="Families"}}
+        <li><button class="" onclick="findInList(''mixed-race'', 'ccc_vignette_cards')">'mixed-race'</button></li>
+        <li><button class="" onclick="findInList('adoption', 'ccc_vignette_cards')">adoption</button></li>
+        <li><button class="" onclick="findInList('colonial exploration', 'ccc_vignette_cards')">colonial exploration</button></li>
+        <li><button class="" onclick="findInList('disease', 'ccc_vignette_cards')">disease</button></li>
+        <li><button class="" onclick="findInList('extinction trope', 'ccc_vignette_cards')">extinction trope</button></li>
+        <li><button class="" onclick="findInList('families', 'ccc_vignette_cards')">families</button></li>
+        <li><button class="" onclick="findInList('guide', 'ccc_vignette_cards')">guide</button></li>
+        <li><button class="" onclick="findInList('intermediaries', 'ccc_vignette_cards')">intermediaries</button></li>
+        <li><button class="" onclick="findInList('medicine', 'ccc_vignette_cards')">medicine</button></li>
+        <li><button class="" onclick="findInList('missionaries', 'ccc_vignette_cards')">missionaries</button></li>
+        <li><button class="" onclick="findInList('ransomed children', 'ccc_vignette_cards')">ransomed children</button></li>
+        <li><button class="" onclick="findInList('religious humanitarianism', 'ccc_vignette_cards')">religious humanitarianism</button></li>
+        <li><button class="" onclick="findInList('segregation', 'ccc_vignette_cards')">segregation</button></li>
+        <li><button class="" onclick="findInList('transcontinental displacement', 'ccc_vignette_cards')">transcontinental displacement</button></li>
       </ul>
     </div>
-
   </section>
+
+
+
+
+
+
+
+  <!-- <section id="optionBox" class="ccc_filterbox_lists"  aria-label="Select a filter">
+    <div>
+      <strong>Keywords</strong>
+      <ul>
+        {{> ccc/filterbox-checkbox label="Colonial exploration"}}
+        {{> ccc/filterbox-checkbox label="Disease"}}
+        {{> ccc/filterbox-checkbox label="Guide"}}
+        {{> ccc/filterbox-checkbox label="Medicine"}}
+        {{> ccc/filterbox-checkbox label="Missionaries"}}
+        {{> ccc/filterbox-checkbox label="Extinction trope"}}
+        {{> ccc/filterbox-checkbox label="Families"}}
+      </ul>
+    </div>
+
+
+
+    <div>
+      <strong>Keywords</strong>
+      <ul>
+        {{> ccc/filterbox-checkbox label="Colonial exploration"}}
+        {{> ccc/filterbox-checkbox label="Disease"}}
+        {{> ccc/filterbox-checkbox label="Guide"}}
+        {{> ccc/filterbox-checkbox label="Medicine"}}
+        {{> ccc/filterbox-checkbox label="Missionaries"}}
+        {{> ccc/filterbox-checkbox label="Extinction trope"}}
+        {{> ccc/filterbox-checkbox label="Families"}}
+      </ul>
+    </div>
+
+
+    <div>
+      <strong>Keywords</strong>
+      <ul>
+        {{> ccc/filterbox-checkbox label="Colonial exploration"}}
+        {{> ccc/filterbox-checkbox label="Disease"}}
+        {{> ccc/filterbox-checkbox label="Guide"}}
+        {{> ccc/filterbox-checkbox label="Medicine"}}
+        {{> ccc/filterbox-checkbox label="Missionaries"}}
+        {{> ccc/filterbox-checkbox label="Extinction trope"}}
+        {{> ccc/filterbox-checkbox label="Families"}}
+      </ul>
+    </div>
+
+  </section> -->
 
 </div>

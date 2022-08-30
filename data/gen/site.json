@@ -1,0 +1,12 @@
+[
+  {
+    "id": "5j3sdqertfgrwert45",
+    "template": "gen/gen-arel-1.html",
+    "title": "gen 1",
+    "states": {
+      "has2col": true
+    },
+    "project": "gen",
+    "file_name": "gen01.html"
+  }
+]

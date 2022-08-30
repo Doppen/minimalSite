@@ -5,28 +5,35 @@
 {{> ccc/left_bar}}
 
 {{> layout/col3_02 }}
+<main class="ccc_main_content">
+  <section class="ccc_topBlock" aria-label="introduction to the site">
+    <span><h1 class="h1top">Colonial Children Connected</h1>
+      The <strong>Colonial Children Connected</strong> project shows the lives of (post)colonial children. These microhistories each follow the life of a child involved in (post)colonial child separation practices. The website presents the lives of the children in the form of vignettes. This project is part of the <strong>COAC</strong> project.
+      <small>Please <a href="">read the disclaimer</a> concerning the use of personal data.</small>
+    </span>
+  </section>
+</main>
+{{> ccc/filterbox }}
+<section class="ccc_vignette_cards"  aria-label="overview of the vignettes">
+  {{> ccc/card title="Raden Roro Moerjan" image="Raden-Roro-Moerjan.jpg"}}
+  {{> ccc/card title="Bido" image="bido02.png"}}
+  {{> ccc/card title="Sietske Croese-Mulder" image="Sietske.png"}}
+  {{> ccc/card title="Raden Roro Moerjan" image="Raden-Roro-Moerjan.jpg"}}
+  {{> ccc/card title="Bido" image="bido02.png"}}
+  {{> ccc/card title="Sietske Croese-Mulder" image="Sietske.png"}}
+  {{> ccc/card title="Raden Roro Moerjan" image="Raden-Roro-Moerjan.jpg"}}
+  {{> ccc/card title="Bido" image="bido02.png"}}
+  {{> ccc/card title="Sietske Croese-Mulder" image="Sietske.png"}}
 
-  <main id="ccc_main_content" class="ccc_main_content">
-    <div class="ccc_topBlock">
-      <h1>{{> ccc/title_bido}}</h1>
-    </div>
-    {{> ccc/content_bido}}
-  </main>
-
-
-
-
+</section>
 
 {{> layout/col3_03 }}
 
-{{> ccc/aside}}
-
 {{> layout/col3_04 }}
 
-{{> ccc/notepopup}}
 
 
 <script src="js/hamburger-menu.js" charset="utf-8"></script>
-<script src="js/header2Navigation.js" charset="utf-8"></script>
-<script src="js/notesPopup.js" charset="utf-8"></script>
+<script src="js/filterBox.js" charset="utf-8"></script>
+
 {{> html-footer}}

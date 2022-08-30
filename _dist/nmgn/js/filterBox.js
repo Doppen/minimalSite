@@ -8,7 +8,7 @@ function handleFilterbox() {
     filBoxStat = false
   }else {
 
-    document.getElementById('optionBox').style.height = 300+'px';
+    document.getElementById('optionBox').style.height = 550+'px';
     document.getElementById('rotateIcon').style.transform = 'rotate(180deg)';
     filBoxStat = true
   }

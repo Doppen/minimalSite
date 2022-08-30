@@ -1,0 +1,21 @@
+.hheader{
+  width: 100%;
+  height: 100px;
+  display: grid;
+
+  grid-template-columns: [strt] minMax(30px, 300px) [mid] auto [rightstart] minMax(30px, 300px) [endd];
+}
+
+.hheader{
+  background-color: rgb(222, 241, 235);
+}
+
+.hheader__brand {
+  grid-column: strt / mid;
+
+}
+
+.hheader__menu {
+  background-color: rgb(192, 217, 230);
+  grid-column: rightstart / endd;
+}

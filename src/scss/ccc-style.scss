@@ -310,17 +310,30 @@ p {
 
   div{
     margin-top: 2rem;
+    flex: 1;
   }
 
   ul {
     margin: 0;
     padding: 0;
-    flex: 1;
     li  {
       margin: 0;
-      padding: 0;
+      padding: 0 0 .3rem 0 ;
+      list-style: none;
+
+      button {
+        border: 0px;
+        padding: 0px;
+        text-align: left;
+      }
+
+      button:hover {
+        transform: scale(1, 1);
+      }
     }
   }
+
+
 }
 
 .ccc_filterbox_checkbox {

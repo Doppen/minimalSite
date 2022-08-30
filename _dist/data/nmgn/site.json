@@ -1,0 +1,12 @@
+[
+  {
+    "id": "qertfgrerwert45",
+    "template": "nmgn/nmgn-volg.html",
+    "title": "NMGN volg",
+    "states": {
+      "has2col": true
+    },
+    "project": "nmgn",
+    "file_name": "nmgn-volg.html"
+  }
+]

@@ -1,0 +1,18 @@
+$color-mainBlue: #053a51;
+$color-headerBlue: #032939;
+$color-brightBlue: #2bf6d7;
+
+$margin-small: 17px;
+$margin-default: 30px;
+$margin-double: 60px;
+
+$maxNavBar: 300px;
+$maxTextBar: 600px;
+$maxNoteBar: 150px;
+$maxIlluBar: 700px;
+
+$max-width: $maxNavBar + $maxTextBar + $maxNoteBar + $maxIlluBar + ($margin-double * 3);
+$logo-size: 400px;
+$headerFill: $max-width - $logo-size;
+$smallImgBar: 400px;
+$max-width-min: $max-width - $maxNavBar;

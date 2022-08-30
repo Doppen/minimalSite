@@ -1,0 +1,179 @@
+@use 'nmgn-vars' as *;
+
+.nmgn-chapter-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nmgn-content {
+  position: relative;}
+.nmgn-content-text {
+  position: relative;
+}
+.nmgn-content-illustration {
+  position: relative;
+  display: none;
+}
+.nmgn-content-notes {
+  position: relative;
+  display: none;
+}
+
+.nmgnChapterContent {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+
+  //overflow-y: scroll;
+  //margin-left: -1.5rem;
+  z-index: 100;
+
+}
+
+
+
+@media (min-width: 1000px) {
+  .nmgn-content {
+    display: grid;
+    grid-template-columns: [bufferL] auto [textStart] minmax(400px, $maxTextBar) [textEnd] $margin-default [imgStart] $smallImgBar [gappA] auto [bufferR];
+
+    .nmgn-content-illustration {
+      display: flex;
+    }
+    .nmgnChapterContent {
+      max-width: $maxNavBar
+    }
+  }
+
+@media (min-width: 1280px) {
+    .nmgn-content {
+      display: grid;
+      //grid-template-columns: [bufferL] auto [navStart] 300px  [gappB] $margin-double      [imgStart] minMax($sidebar, 700px) [gappA] $margin-double       [textStart] minmax(400px, 600px) [textEnd]      auto [bufferR] ;
+      grid-template-columns: [bufferL] auto [navStart] $maxNavBar  [gappB] $margin-double          [textStart] minmax(400px, $maxTextBar) [textEnd] $margin-double  [gappC]      $margin-double       [imgStart] minMax($smallImgBar, $maxIlluBar)     [imgEnd]     auto [bufferR] ;
+
+    }
+    .nmgnChapterContent {
+      position: relative;
+      grid-column: navStart / gappB;
+      height: auto;
+      width: auto;
+      max-width: calc($maxNavBar + 1rem);
+
+
+    }
+  }
+
+
+  @media (min-width: 1500px) {
+      .nmgn-content {
+
+        //grid-template-columns: [bufferL] auto [navStart] 300px  [gappB] $margin-double         [imgStart] minMax($sidebar, 700px) [gappA] $margin-double          [textStart] minmax(400px, 600px) [textEnd] $margin-double  [gappC] 200px [notesEnd] auto [bufferR] ;
+        grid-template-columns: [bufferL] auto [navStart] $maxNavBar  [gappB] $margin-double          [textStart] minmax(400px, $maxTextBar) [textEnd] $margin-double  [gappC] $maxNoteBar [notesEnd]      $margin-double       [imgStart] minMax($smallImgBar, $maxIlluBar)     [imgEnd]     auto [bufferR] ;
+
+      }
+      .nmgn-content-notes {
+        display: flex;
+        grid-column: gappC / notesEnd;
+        margin-top: 1900px;
+      }
+    }
+
+
+  .nmgn-content-text {
+    grid-column: textStart / textEnd;
+
+  }
+
+  .nmgn-content-illustration {
+    grid-column: imgStart / imgEnd;
+    //background-color: rgba(31, 87, 154, 0.33);
+  }
+
+}
+
+
+.nmgn-content-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 200;
+}
+
+
+
+
+.nmgnChapterContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: hsl(0, 0%, 95%);
+
+
+
+  .nmgnContentList {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 5rem;
+
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      text-decoration: none;
+      color: hsl(0, 0%, 40%)
+       }
+  }
+}
+
+@media (min-width: 1280px) {
+  .nmgnChapterContent {
+    border-right: 1px solid hsl(0, 0%, 90%);
+    background-color: hsl(100, 0%, 100%);
+  }
+}
+
+
+
+
+.nmgn-content-illustration {
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .nmgn-illustartion__image {
+    position: sticky;
+    top:0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      max-width: 400px;
+      margin-left:auto;
+      margin-right: auto;
+      margin-top: 2rem;
+    }
+  }
+}
+
+
+.topMargin {
+  padding-top: 6rem;
+}

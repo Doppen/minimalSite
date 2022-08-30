@@ -1,0 +1,57 @@
+@use 'nmgn-vars' as *;
+@use 'sass:math';
+
+$heroHeight: 65vh;
+$heroHeight-3: math.div(65vh, 3);
+
+.nmgn-chapterHero {
+  background-color: $color-mainBlue;
+  color: #fff;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    color: $color-brightBlue;
+    font-size: calc(1rem + 3vw);
+  }
+}
+
+
+
+
+@media (min-width: 750px) {
+  .nmgn-chapterHero {
+    height: $heroHeight;
+    display: grid;
+    grid-template-columns: [leftt] auto [heroStart]  300px [illuStart] minMax(1px, $max-width-min)  [heroEnd] auto [rightt];
+    grid-template-rows: [topp] 1fr [mid1] 1fr [mid2] 1fr [bott]
+  }
+
+
+
+  .nmgn-chapterHero__deel {
+    grid-column: heroStart / heroEnd;
+    grid-row: topp / mid1;
+    align-self: center;
+  }
+  .nmgn-chapterHero__h1,{
+    grid-column: heroStart / heroEnd;
+    grid-row: mid1 / mid2;
+    align-self: center;
+  }
+  .nmgn-chapterHero__author {
+    grid-column: heroStart / heroEnd;
+    grid-row: mid2 / bott;
+    align-self: center;
+  }
+
+  .nmgn-chapterHero__image {
+    grid-column: illuStart / heroEnd;
+    grid-row: mid2 / bott;
+    background-color: rgb(154, 144, 50);
+    height: $heroHeight-3
+  }
+}

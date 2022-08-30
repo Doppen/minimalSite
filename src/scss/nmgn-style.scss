@@ -1,0 +1,44 @@
+@use 'abstracts' as *;
+@use 'basics/normalise';
+@use 'basics/pageDefault';
+@use 'basics/typo';
+// @use 'basics/colors';
+// @use 'utillities/utilities';
+// @use 'utillities/flexbox';
+// @use 'basics/margin-padding';
+// @use 'basics/nav';
+// @use 'basics/lists';
+// @use 'basics/icons';
+// @use 'min-a11y-style';
+// @use 'form/_buttons';
+// @use 'form/_form';
+// @use 'layout/layout_3col-vertNav';
+@use 'custom/nmgn/nmgn-vars' as *;
+@use 'custom/nmgn/nmgn-header';
+@use 'custom/nmgn/nmgn-chapter-hero';
+@use 'custom/nmgn/nmgn-content-Layout';
+
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+figure {
+  margin: 0;
+}
+
+
+
+.nmgn-margin {
+  padding-left: $margin-small;
+  padding-right: $margin-small;
+}
+
+@media (min-width: 600px) {
+  .nmgn-margin {
+    padding-left: $margin-default;
+    padding-right: $margin-default;
+  }
+}

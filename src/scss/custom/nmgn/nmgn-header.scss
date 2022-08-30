@@ -1,0 +1,35 @@
+@use 'nmgn-vars' as *;
+
+.nmgnHeader {
+  width: 100%;
+  background-color: $color-headerBlue;
+  color: #fff;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+
+
+
+@media (min-width: 750px) {
+  .nmgnHeader {
+    display: grid;
+    grid-template-columns: [leftt] auto [headerStart] $logo-size [headerMid] minMax(1px, $headerFill) [headerEnd] auto [rightt];
+  }
+}
+
+
+
+.nmgnHeader__brand {
+  grid-column: headerStart / headerMid;
+}
+.nmgnHeader__navigation {
+  grid-column: headerMid / headerEnd;
+  text-align: right;
+}
