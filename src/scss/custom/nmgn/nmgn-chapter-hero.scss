@@ -19,6 +19,13 @@ $heroHeight-3: math.div(65vh, 3);
   }
 }
 
+.nmgn-chapterHero__image {
+  text-align: right;
+  img {
+    height: 75px;
+    width: auto;
+  }
+}
 
 
 
@@ -51,7 +58,13 @@ $heroHeight-3: math.div(65vh, 3);
   .nmgn-chapterHero__image {
     grid-column: illuStart / heroEnd;
     grid-row: mid2 / bott;
-    background-color: rgb(154, 144, 50);
-    height: $heroHeight-3
+    text-align: left;
+
+    img {
+      height: 100%;
+      width: auto;
+      //flex: 0 0 auto
+    }
+
   }
 }
