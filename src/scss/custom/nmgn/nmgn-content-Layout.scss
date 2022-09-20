@@ -65,7 +65,7 @@
     }
   }
 
-@media (min-width: 1280px) {
+@media (min-width: 1300px) {
     .nmgn-content {
       display: grid;
       //grid-template-columns: [bufferL] auto [navStart] 300px  [gappB] $margin-double      [imgStart] minMax($sidebar, 700px) [gappA] $margin-double       [textStart] minmax(400px, 600px) [textEnd]      auto [bufferR] ;
@@ -158,7 +158,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1300px) {
   .nmgnChapterContent {
     border-right: 1px solid hsl(0, 0%, 90%);
     background-color: hsl(100, 0%, 100%);
