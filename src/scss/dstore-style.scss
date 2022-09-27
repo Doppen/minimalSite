@@ -1,5 +1,6 @@
 @use 'abstracts' as *;
 @use 'custom/dstore/vars';
+@use 'brands/ineo-vars';
 @use 'basics/normalise';
 @use 'basics/pageDefault';
 @use 'basics/typo';
@@ -11,13 +12,14 @@
 @use 'basics/lists';
 @use 'basics/icons';
 @use 'min-a11y-style';
-@use 'form/_buttons';
+@use 'form/_buttons_basic';
 @use 'form/_form';
 //@use 'custom/dstore/layout';
 @use 'custom/dstore/layout_overlay';
 @use 'custom/dstore/editor';
 @use 'custom/dstore/blocks';
 @use 'custom/dstore/data_table';
+@use 'brands/ineo';
 
 $marginGap: 2rem;
 $headerHeight: 50px;
@@ -63,13 +65,21 @@ p {
 
 .topHeader {
   width: 100%;
-  background-color: #2653F2;
+  background-color: $color-grey5;
   color: #fff;
   height: $headerHeight;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding-left: $marginGap;
   padding-right: $marginGap;
+
+
+
+  img {
+    height: 30px;
+    width: auto;
+    margin-right: 2rem;
+  }
 }

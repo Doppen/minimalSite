@@ -1,0 +1,91 @@
+@use '../abstracts' as *;
+
+button {
+  background-color: #fff;
+  border: 1px solid $colorText;
+  padding: 5px 10px;
+  color: $colorText;
+  border-radius: $borderRadiusBasic;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+
+.bt_icon img{
+  height: .8rem;
+}
+
+.bt_XL {
+  padding: 5px 10px;
+}
+
+
+//
+// button {
+//   border: 1px solid $ctsBlue;
+//   background-color: #fff;
+//   color: $ctsBlue;
+//   border-radius: $borderRadiusBasic;
+//   padding: 5px 10px;
+//   font-size: $fontSizeSmall; //$fontSizeDefault;
+//   font-weight: $fontWeightBold;
+//   cursor: pointer;
+//   max-width: 300px;
+//   width: auto;
+//   transition: transform .2s;
+//
+//   img {
+//     height: 15px;
+//     width: auto;
+//   }
+// }
+//
+// button:hover {
+//   transform: scale(1.05, 1.05);
+// }
+//
+//
+// .hc_b--noMarkUp {
+//   border: 0px;
+//   background: none;
+// }
+//
+// .hc_b--obtrusive {
+//   border: 1px solid $ctsBlueMid;
+//   background-color: #fff;
+//   color: $ctsBlueMid2;
+//   font-weight: $fontWeightDefault;
+//
+//   img {
+//     opacity: .7;
+//   }
+// }
+//
+// .hc_b--blue {
+//   background-color: $ctsBlue;
+//   color: #fff;
+// }
+//
+//
+// .hc_b--xl {
+//   padding: 19px 29px;
+//   font-size: $fontSizeDefault;
+// }
+//
+// .hc_b--xs {
+//   padding: 3px 5px;
+//   font-size: $fontSizeSmall;
+//
+//   img {
+//     height: 12px;
+//     width: auto;
+//   }
+// }

@@ -1,0 +1,95 @@
+@use '../abstracts' as *;
+
+body {
+  color: $color-grey5;
+}
+
+a {
+  color: $color-blue;
+}
+
+a:hover {
+  color: $color-blue-hover;
+}
+
+
+
+// background colors
+.bg_ineo_grey1 {
+  background-color: $color-grey1;
+}
+
+.bg_ineo_grey2 {
+  background-color: $color-grey2;
+}
+
+.bg_ineo_grey3 {
+  background-color: $color-grey3;
+}
+
+.bg_ineo_grey4 {
+  background-color: $color-grey4;
+}
+
+.bg_ineo_grey5 {
+  background-color: $color-grey5;
+}
+
+
+.bg_ineo_blue {
+  background-color: $color-blue;
+}
+
+.bg_ineo_red {
+  background-color: $color-red;
+}
+
+.bg_ineo_orange {
+  background-color: $color-orange;
+}
+
+.bg_ineo_green {
+  background-color: $color-green;
+}
+
+
+// text colors
+
+.text_ineo_blue {
+  color: $color-blue;
+}
+
+.text_ineo_red {
+  color: $color-red;
+}
+
+.text_ineo_orange {
+  color: $color-orange;
+}
+
+.text_ineo_green {
+  color: $color-green;
+}
+
+
+
+// background colors
+.border_ineo_grey1 {
+  border: 1px solid $color-grey1;
+}
+
+.border_ineo_grey2 {
+  border: 1px solid $color-grey2;
+}
+
+.border_ineo_grey3 {
+  border: 1px solid $color-grey3;
+}
+
+.border_ineo_grey4 {
+  border: 1px solid $color-grey4;
+}
+
+.border_ineo_grey5 {
+  border: 1px solid $color-grey5;
+}

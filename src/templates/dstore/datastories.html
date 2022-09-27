@@ -1,47 +1,12 @@
 {{> html-header}}
 
 <div class="topHeader">
-  <div class="">Ineo Data Stories</div>
-
-
+  <img src="images/logo-ineo.png" alt=""><div class="">Data Stories</div>
 </div>
-
-
 
     {{> dstore/datastory }}
 
-
-
-  <div class="panel_edit fixedBottom" id="panel_edit">
-    <div class="panel_edit_inner">
-
-
-<div class="edit_header">
-  <div><strong>Edit markdown block</strong></div>
-  <button type="button" name="button" id="panelHandleButton" onclick="removeFocusFromBlock();">&#128317;</button>
-
-</div>
-
-<div class="edit_body">
-  <div class="edit_segments">
-    <a href="">Text</a>
-    <a href="">Metadata</a>
-    <a href="">Notes and Comments</a>
-    <a href="">Provenance</a>
-    <a href="">Layout</a>
-  </div>
-  <div class="edit_workspace">{{> dstore/editBox1 }}</div>
-
-</div>
-
-
-    </div>
-  </div>
-
-
-
-
-
+    {{> dstore/editpanel }}
 
 
 

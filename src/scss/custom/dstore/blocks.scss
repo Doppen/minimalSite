@@ -1,4 +1,157 @@
 @use 'vars' as *;
+@use '../../brands/ineo-vars' as *;
+
+.dataStoryBlocks {
+  margin-top: 5rem;
+  margin-bottom: 500px;
+}
+
+
+
+
+
+
+
+$markerWidth: 4px;
+$leftSpace: 80px;
+
+.dsBlock__layout{
+  width: 100%;
+
+}
+
+.dsBlock__left {
+  width: calc($leftSpace -  $markerWidth);
+  padding-left: .6rem;
+  border-left: $markerWidth solid #fff;
+
+}
+
+.dsBlock__right {
+  width: 100%;
+  max-width: 800px;
+  margin-right: $marginGap;
+}
+
+.dsBlock__margin {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.dsBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  //cursor: pointer;
+
+
+  transition: background-color .4s;
+  background-color: #fff;
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: .5rem;
+  }
+
+
+
+}
+
+
+
+.dsBlock__handle {
+
+
+  //width: $leftSpace;
+   border-left: $markerWidth solid $color-grey2;
+
+   text-align: center;
+
+  // display: flex;
+  // flex-direction: column;
+
+  button {
+    margin-bottom: .5rem;
+    min-width:30px;
+
+  }
+}
+.dsBlock__content {
+
+}
+
+.revealBlock {
+  visibility: hidden;
+}
+
+
+
+.dsBlock--wide {
+  .dsBlock__content {
+    max-width: 1200px;
+  }
+}
+
+.dsBlock--wideExtra {
+  .dsBlock__content {
+    max-width: 1800px;
+  }
+}
+
+
+
+
+.dsBlock:hover{
+  background-color: $color-grey1;
+
+}
+
+.dsBlock:hover .revealBlock{
+  visibility: visible;
+}
+
+.dsBlock--active {
+  background-color: $color-grey1;
+
+
+  .dsBlock__handle {
+    visibility: visible;
+     border-left: $markerWidth solid $color-green;
+
+   }
+}
+
+
+.newContent {
+
+  background-color: $color-grey1;
+  display: none;
+  flex-direction: row;
+  gap: 3rem;
+  width: 100%;
+  overflow-x: scroll;
+
+  li {
+    list-style: none;
+    margin-bottom: .3rem;
+    margin-left: 0;
+  }
+}
+
+.dsBlock__new {
+  padding: .5rem;
+}
+
+
+
+
+
+
+
+
+
 
 .block_item,   {
   width: 100%;

@@ -1,11 +1,11 @@
 {
   "name": "sitebuilder",
   "version": "1.0.0",
-  "description": "Prototype builder tool",
+  "description": "Prototype builder tool / nmgn ccc cmt dstore gen",
   "main": "",
   "scripts": {
-    "build": "node app/buildSite.js nmgn",
-    "buildJson": "node data/nmgn/build_data.js nmgn",
+    "build": "node app/buildSite.js dstore",
+    "buildJson": "node data/dstore/build_data.js dstore",
     "server": "node app.js",
     "nodemon": "nodemon -e js,scss,html,md -x  npm run build",
     "browsync": "browser-sync start --server '_dist' --files './src' ",

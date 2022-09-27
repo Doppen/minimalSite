@@ -1,0 +1,11 @@
+<div class="dsBlock dsBlock__layout dsBlock__margin {{#if active}} dsBlock--active{{/if}} {{widthSize}} ">
+  <div class="dsBlock__handle revealBlock dsBlock__left">
+    <button type="button" name="button" class="bt_icon block_event">
+      <img src="images/icons/icon-edit.svg" alt="">
+    </button>
+    <button type="button" name="button" class="bt_icon">
+      <img src="images/icons/icon-delete.svg" alt="">
+    </button>
+  </div>
+  <div class="dsBlock__content dsBlock__right">{{> (lookup . 'comp') }}</div>
+</div>

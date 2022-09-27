@@ -1,12 +1,13 @@
-<div>
-  <div class="block_item"><div class="editNote">Click to edit block</div><h1>The 'Spanish' Flu Epidemic in The Netherlands 1918-19</h1></div>
-  {{> dstore/newBlock }}
-  <div class="block_item"><div class="editNote">Click to edit block</div>{{> dstore/text1 }}</div>
-  {{> dstore/newBlock }}
-  <div class="block_item blockScroll"><div class="editNote">Click to edit block</div>{{> dstore/table1 }}</div>
-  {{> dstore/newBlock }}
-  <div class="block_item"><div class="editNote">Click to edit block</div>{{> dstore/text1 }}</div>
-  {{> dstore/newBlock }}
-  <div class="block_item"><div class="editNote">Click to edit block</div>{{> dstore/text1 }}</div>
-  {{> dstore/newBlock }}
+<div class="dataStoryBlocks">
+
+  {{> dstore/blockWrap comp="dstore/bl_content_h1"}}
+  {{> dstore/blockNew }}
+  {{> dstore/blockWrap comp="dstore/bl_content_text1"}}
+  {{> dstore/blockNew }}
+  {{> dstore/blockWrap comp="dstore/bl_content_table1" widthSize="dsBlock--wideExtra"}}
+  {{> dstore/blockNew }}
+  {{> dstore/blockWrap comp="dstore/bl_content_text1" }}
+  {{> dstore/blockNew }}
+
+
 </div>

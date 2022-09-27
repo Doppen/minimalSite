@@ -1,17 +1,23 @@
-.block_item table {
+@use '../../brands/ineo-vars' as *;
 
-  max-width: 1800px;
+.dsBlock table {
+
+
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid hsl(207, 19%, 85%);
+  //border: 1px solid $color-grey1;
 
   tr:nth-child(odd) {
-    background: #F0F3F6;
+    background: $color-grey1;
   }
 
   thead tr {
     text-align: left;
     background: #fff;
+  }
+  td{
+    padding: .2rem;
+    font-size: .9rem;
   }
 }
