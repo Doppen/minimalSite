@@ -1,17 +1,20 @@
 {
   "name": "sitebuilder",
   "version": "1.0.0",
-  "description": "Prototype builder tool / nmgn ccc cmt dstore gen",
+  "description": "Project: nmgn ccc cmt dstore gen",
   "main": "",
+  "config": {
+        "project": "gen"
+    },
   "scripts": {
-    "build": "node app/buildSite.js dstore",
-    "buildJson": "node data/dstore/build_data.js dstore",
+    "build": "node app/buildSite.js $npm_package_config_project",
+    "buildJson": "node data/$npm_package_config_project/build_data.js bash $npm_package_config_project",
     "server": "node app.js",
     "nodemon": "nodemon -e js,scss,html,md -x  npm run build",
     "browsync": "browser-sync start --server '_dist' --files './src' ",
     "start2": "npm run build & npm run nodemon & npm run browsync",
     "start3": "npm run build  & npm run nodemon  & npm run server",
-    "prestart_not": "npm run buildJson",
+    "prestart__": "npm run buildJson",
     "start": "npm run build ",
     "poststart": "npm run nodemon"
   },

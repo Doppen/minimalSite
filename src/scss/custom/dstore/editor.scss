@@ -7,6 +7,9 @@
   transition: bottom .4s ease-in-out;
   box-shadow: -10px -10px 50px rgba(#000, 0.3);
 
+  height: 500px;
+  bottom: -450px;
+
   //display: flex;
   justify-content: space-between;
   background-color: $color-grey2;
@@ -78,9 +81,17 @@
 }
 
 textarea {
-  width: 100%;
-  max-width: 800px;
+  width: 700px;
   height: 350px;
   font-family: monospace;
   font-size: 15px;
+  border-radius: 2px;
+}
+
+.editorUp {
+  bottom: 0px;
+}
+
+.editorDown {
+  bottom: -450px;
 }
