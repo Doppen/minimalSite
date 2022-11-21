@@ -1,0 +1,12 @@
+[
+  {
+    "id": "qertfgrerwert45",
+    "template": "edit/edit-default.html",
+    "title": "edit volg",
+    "states": {
+      "hasLoggedIn": false
+    },
+    "project": "edit",
+    "file_name": "edit-default.html"
+  }
+]

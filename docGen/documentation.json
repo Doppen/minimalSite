@@ -1,0 +1,67 @@
+[{
+  "docTitle": "Container block",
+  "docDescrip": "use `hcBasicSideMargin` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcBasicSideMargin\">Some content</div>`",
+  "docCat": "`building block`"
+}, {
+  "docTitle": "Scroll block",
+  "docDescrip": "use `hcBlockScroll` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcBasicSideMargin\">Some content</div>`",
+  "docSource": "",
+  "docCat": "`building block`"
+}, {
+  "docTitle": "Color 1",
+  "docDescrip": "use `hcClrBg_Info` for a basic margin on both sides",
+  "docExample": "hsl(190, 70%, 40%)",
+  "docCat": "color"
+}, {
+  "docTitle": "Color Greys",
+  "docDescrip": "use `hcClrBg_Grey05` for a basic margin on both sides",
+  "docExample": "hsl(80, 60%, 53%)",
+  "docSource": "",
+  "docCat": "color"
+}, {
+  "docTitle": "basic form elements",
+  "docDescrip": "use `hcClrBg_Grey05` for a basic margin on both sides",
+  "docExample": "hsl(80, 60%, 53%)",
+  "docCat": "form"
+}, {
+  "docTitle": "Label",
+  "docDescrip": "use `hcLabel` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcBasicSideMargin\">Some content</div>`",
+  "docSource": "",
+  "docCat": "form"
+}, {
+  "docTitle": "Margin and padding",
+  "docDescrip": "use `hcBasicSideMargin` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcBasicSideMargin\">Some content</div>`",
+  "docCat": ""
+}, {
+  "docTitle": ".hcMarginBottom05",
+  "docDescrip": "use for a margin of .5rem at the bottom of an element \n second line",
+  "docExample": "",
+  "docSource": "",
+  "docCat": ""
+}, {
+  "docTitle": "No List",
+  "docDescrip": "removes the list-style from an html list",
+  "docExample": "`<ul class=\"hcNoList\">Some content</ul>`",
+  "docCat": ""
+}, {
+  "docTitle": "Small text",
+  "docDescrip": "use `hcSmallTxt` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcBasicSideMargin\">Some content</div>`",
+  "docCat": "typo"
+}, {
+  "docTitle": "Mono space",
+  "docDescrip": "use `hcMonospace` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcMonospace\">Some content</div>`",
+  "docSource": "",
+  "docCat": "typo"
+}, {
+  "docTitle": "Not Bold",
+  "docDescrip": "use `hcNotBold` for a basic margin on both sides",
+  "docExample": "`<div class=\"hcMonospace\">Some content</div>`",
+  "docSource": "",
+  "docCat": "typo"
+}]

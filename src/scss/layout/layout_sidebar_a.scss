@@ -1,0 +1,38 @@
+@use '../abstracts' as *;
+
+.layout_sidebar_a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+$colWidth: 270px;
+
+@media (min-width: 700px) {
+  .layout_sidebar_a {
+    display: grid;
+    grid-template-columns: [leftt] auto [sCol1] minMax(200px, 300px) [sCol2] minMax(300px, 1000px) [sCol3] 200px [eCol3] auto [rightt];
+    grid-template-rows: [topp] auto [bott];
+  }
+}
+
+
+
+.asideLeft {
+  grid-column: sCol1 / sCol2;
+  grid-row: topp / bott;
+
+}
+
+.mainContent {
+  grid-column: sCol2 / sCol3;
+  grid-row: topp / bott;
+}
+
+.asideRight {
+  grid-column: sCol3 / eCol3;
+  grid-row: topp / bott;
+}

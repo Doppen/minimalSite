@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.borderLeft {
+  border-left: 1px solid hsl(63, 20%, 92%);
+}
+
+.borderRight {
+  border-right: 1px solid hsl(63, 20%, 97%);
+}

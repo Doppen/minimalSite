@@ -1,5 +1,37 @@
+//t Height: full height
+//d use `fullHeight` for an element that uses 100% of the viewport height
+//e `<div class="fullHeight">Some content</div>`
+//c utility
+//|
 .fullHeight {
   min-height: 100vh;
+}
+
+
+//t Width: maximum width
+//d use `maxW1800` for a maximum width of the element. Also: `maxW700` `maxW1000`
+//e `<div class="maxW1800">Some content</div>`
+//c color
+//|
+.maxW700 {
+  width: 100%;
+  max-width: 700px;
+}
+
+.maxW1000 {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.maxW1800 {
+  width: 100%;
+  max-width: 1800px;
+}
+
+
+.centerPlace {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .topSpace {

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "qertfgrerwert45",
+    "template": "wp-huc/wp-huc-default.html",
+    "title": "wp-huc volg",
+    "states": {
+      "hasLoggedIn": false
+    },
+    "project": "wp-huc",
+    "file_name": "wp-huc-default.html"
+  }
+]

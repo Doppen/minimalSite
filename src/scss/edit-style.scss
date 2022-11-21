@@ -1,0 +1,25 @@
+@use 'abstracts' as *;
+@use 'basics/normalise';
+@use 'basics/pageDefault';
+@use 'basics/typo';
+// @use 'basics/colors';
+@use 'utillities/utilities';
+@use 'basics/blocks';
+@use 'markup/lines';
+// @use 'utillities/flexbox';
+@use 'basics/margin-padding';
+// @use 'basics/nav';
+@use 'basics/lists';
+// @use 'basics/icons';
+// @use 'min-a11y-style';
+// @use 'form/_buttons';
+// @use 'form/_form';
+@use 'layout/layout_sidebar_a';
+// @use 'custom/edit/_file_name';
+
+
+.tempBG {
+  background-color: hsl(63, 20%, 97%);
+  grid-column: sCol2 /rightt;
+  grid-row: topp / bott;
+}

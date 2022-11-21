@@ -1,0 +1,5 @@
+//t Margin and padding
+//d use `hcBasicSideMargin` for a basic margin on both sides
+//e `<div class="hcBasicSideMargin">Some content</div>`
+//c color
+//|

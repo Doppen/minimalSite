@@ -1,0 +1,17 @@
+{
+  "folders": ["../src/scss"],
+  "output_file": "../data/scss_doc.json",
+  "comment_start": "//t",
+  "comment_enc": "//t|",
+  "comment_shortcodes": [
+    {"code": "t",
+    "name": "Title"},
+    {"code": "d",
+    "name": "Description"},
+    {"code": "e",
+    "name": "Example"},
+    {"code": "c",
+    "name": "Category"}
+  ],
+  "category_order": ["basics", "typo", "color", "layout", "building block", "form", "button"]
+}
