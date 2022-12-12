@@ -1,26 +1,138 @@
 @use 'abstracts' as *;
+
+
 @use 'basics/normalise';
 @use 'basics/pageDefault';
 @use 'basics/typo';
 // @use 'basics/colors';
 @use 'utillities/utilities';
 // @use 'utillities/flexbox';
-// @use 'basics/margin-padding';
+@use 'basics/margin-padding';
 // @use 'basics/nav';
-// @use 'basics/lists';
+@use 'basics/lists';
 // @use 'basics/icons';
 // @use 'min-a11y-style';
-// @use 'form/_buttons';
-// @use 'form/_form';
+@use 'utillities/navSubList_vertical';
 @use 'layout/layout_3col-vertNav';
 @use 'layout/layout_headerbar';
-// @use 'custom/wp-huc/_file_name';
+@use 'wp-blocks';
+
 
 
 
 #colNav {
-  background-color: rgb(206, 242, 230)
+  //background-color: rgb(206, 242, 230)
 }
 #colContentWide {
-  background-color: rgb(237, 242, 206)
+  //background-color: hsl(344, 40%, 95%);
+  // #f7edf0
+}
+
+
+.topBranding {
+  a {
+    text-decoration: none;
+    color: $colorText;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+  }
+
+}
+
+.topMenu {
+  a {
+    color: $colorText;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1000px) {
+    .layout_3col_vertNav {
+      grid-template-columns: [leftt] 400px [col2] auto [rightt];
+
+    }
+
+}
+
+
+@media (min-width: 1300px) {
+    .layout_3col_vertNav {
+      grid-template-columns: [leftt] 400px [col2] auto [colEnd] $layout_3_colWidth [rightt];
+    }
+}
+
+.entry-content> .wp-block-columns:first-child {
+
+    padding: 0 !important;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+
+    >* {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      figure {
+        margin: 0;
+
+    }
+  }
+}
+
+
+.entry-content {
+
+
+  ul.wp-block-post-template {
+    margin: 0 0 0 0;
+
+    li {
+      margin: 0 0 0 0;
+    }
+
+    h2, h3 {
+      a {
+        text-decoration: none;
+        color: $colorText;
+      }
+    }
+  }
+
+  .wp-block-column p:first-child {
+    padding-left: 2rem;
+  }
+  .wp-block-column p:last-child {
+    padding-right: 2rem;
+  }
+  .wp-block-columns {
+    gap: 3 rem;
+  }
+}
+
+.navSubMouseOver {
+  button {
+    border: none;
+    background: none;
+    height: auto;
+
+    svg {
+      height: 10px;
+      width: 10px;
+    }
+  }
+}
+
+
+.wp-block-group {
+  width: 100%;
+
+  .wp-block-group__inner-container {
+    width: 736px;
+
+  }
 }

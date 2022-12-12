@@ -6,7 +6,7 @@
   li ul {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.9s ease-out;
+    transition: max-height 2s ease-out 5s;
   }
 
   li:hover ul {
@@ -14,11 +14,10 @@
     transition: max-height 0.9s ease-in;
   }
 
-  .current-menu-parent ul {
+  .current-menu-parent ul, .navIsCurrentParent ul {
     max-height: 3000px;
   }
 
   li ul .current-menu-item {
   }
-
 }
