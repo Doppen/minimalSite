@@ -13,7 +13,8 @@
 @use 'basics/icons';
 @use 'min-a11y-style';
 @use 'form/_buttons_basic';
-@use 'form/_form';
+@use 'custom/dstore/form-elements';
+
 //@use 'custom/dstore/layout';
 @use 'custom/dstore/layout_overlay';
 @use 'custom/dstore/editor';

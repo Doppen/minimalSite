@@ -81,12 +81,19 @@
 }
 
 textarea {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   height: 200px;
   //font-family: monospace;
   font-size: 15px;
   border-radius: 2px;
+
 }
+
+.edit_workspace {
+  width: 100%;
+}
+
 
 .editorUp {
   bottom: 0px;
