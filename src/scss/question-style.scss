@@ -1,0 +1,74 @@
+@use 'abstracts' as *;
+@use 'basics/normalise';
+@use 'basics/pageDefault';
+@use 'basics/typo';
+// @use 'basics/colors';
+// @use 'utillities/utilities';
+// @use 'utillities/flexbox';
+// @use 'basics/margin-padding';
+// @use 'basics/nav';
+// @use 'basics/lists';
+// @use 'basics/icons';
+// @use 'min-a11y-style';
+// @use 'form/_buttons';
+// @use 'form/_form';
+// @use 'layout/layout_3col-vertNav';
+// @use 'custom/question/_file_name';
+
+@import"https://fonts.googleapis.com/css2?family=Crete+Round&display=swap";
+
+// font-family: "Crete Round",serif;
+// font-weight: 400;
+//font-size: calc(1rem + 1.6vw);
+
+p {
+  margin: 0 0 .7rem 0;
+}
+
+
+.App {
+  padding: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.pageBlock {
+  .pageInfo {
+    margin-bottom: 30px;
+  }
+
+  .pageTitle {
+    font-weight: 600;
+  }
+
+}
+
+.questionBlock{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  min-height: 300px;
+
+  label {
+    margin-bottom: 1rem;
+  }
+
+
+  label:only-of-type {
+    strong {
+      font-family: "Crete Round",serif;
+      font-weight: 400;
+      font-size: calc(1rem + .5vw);
+    }
+  }
+
+  .description {
+    margin-bottom: 1rem;
+  }
+}
+
+.answers {
+
+}

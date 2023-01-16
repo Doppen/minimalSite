@@ -1,10 +1,10 @@
 {
   "name": "sitebuilder",
   "version": "1.0.0",
-  "description": "Project: nmgn ccc cmt dstore gen edit wp-huc",
+  "description": "Project: nmgn ccc cmt dstore gen edit wp-huc question",
   "main": "",
   "config": {
-        "project": "wp-huc"
+        "project": "dstore"
     },
   "scripts": {
     "build": "node app/buildSite.js $npm_package_config_project",
