@@ -72,9 +72,7 @@ p {
   }
 }
 
-.answers {
 
-}
 
 button {
   padding: .5rem .9rem;
@@ -113,4 +111,16 @@ input[type="radio"] {
   background-color: hsl(213, 83%, 95%);
   border: 1px solid hsl(213, 50%, 75%);
   margin-bottom: 2rem;
+}
+
+.sForm {
+  textarea{
+    display: none;
+  }
+}
+
+.sfr {
+  border: 0px;
+  height: 40px;
+  width: 400px;
 }
