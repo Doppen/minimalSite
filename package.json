@@ -4,7 +4,7 @@
   "description": "Project: nmgn ccc cmt dstore gen edit wp-huc question",
   "main": "",
   "config": {
-        "project": "dstore"
+        "project": "wp-huc"
     },
   "scripts": {
     "start": "npm run build ",

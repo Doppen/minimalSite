@@ -1,0 +1,20 @@
+{
+  "custom":
+    {
+      "cts": {
+        "exportPath": "Users/basdoppen/Code/HuC/IST-CTS-AMT-frontend"
+      }
+    },
+    "project": {
+      "ccc": {
+        "wp_dir": "/Users/basdoppen/webserver/wp-ccc/wp-content/themes/ccc-wp",
+        "wp_tempfile": "_temp_files"
+      },
+      "wp-huc": {
+        "wp_dir": "/Users/basdoppen/webserver/wp-project/wp-content/themes/wp-huc",
+        "wp_tempfile": "_temp_files"
+      }
+      ,
+      "nmgn": {}
+    }
+}
