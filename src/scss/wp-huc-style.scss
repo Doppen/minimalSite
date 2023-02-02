@@ -212,3 +212,53 @@ figure {
 
   }
 }
+
+.topNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+@media (min-width: 600px) {
+  .topNav {
+    flex-direction: row;
+    
+  }
+}
+
+
+.topNavInner {
+  width: 100%;
+
+  img {
+    width: 70px;
+    height: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .topNavInner {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem 0 .5rem;
+
+    a {
+
+      margin: 0 0 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+}
+
+.layout1Col {
+  display: flex;
+  flex-direction: column;
+
+}
+
