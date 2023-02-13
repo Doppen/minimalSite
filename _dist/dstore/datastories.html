@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>INEO Data stories | The &#x27;Spanish&#x27; Flu Epidemic in The Netherlands 1918-19</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/v1/dstore-style.css" />
+    <link rel="shortcut icon" href="images/favi-dstore.png" />
+  </head>
+  <body>
+
+<div class="topHeader">
+  <img src="images/logo-ineo.png" alt=""><div class="">Data Stories</div>
+</div>
+
+    <div class="dataStoryBlocks">
+    
+      <div class="dsBlock dsBlock__layout dsBlock__margin   ">
+        <div class="dsBlock__handle revealBlock dsBlock__left">
+          <button type="button" name="button" class="bt_icon block_event">
+            <img src="images/icons/icon-edit.svg" alt="">
+          </button>
+          <button type="button" name="button" class="bt_icon">
+            <img src="images/icons/icon-delete.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__content dsBlock__right"><h1>The 1918-19 flu epidemic in The Netherlands</h1>
+      <p>By <em>Thomas de Groot</em> and <em>Wouter Beek</em> <br>
+        <small><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></small></p>
+      </div>
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__new">
+        <div class=" dsBlock__left">
+          <button type="button" name="button" class="bt_icon newBlockHandler">
+            <img src="images/icons/icon-+.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__right">
+          <div class="newContent">
+            <div>
+            <strong>Text</strong>
+            <ul>
+              <li><button>Markdown</button></li>
+              <li><button>HTML</button></li>
+              <li><button>WYSISYG</button></li>
+              <li><button>Wiki</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Media</strong>
+            <ul>
+              <li><button>Image</button></li>
+              <li><button>Sound file</button></li>
+              <li><button>Video</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Query</strong>
+            <ul>
+              <li><button>SQL (Postgresql)</button></li>
+              <li><button>SQL (MySQL)</button></li>
+              <li><button>SPARQL</button></li>
+              <li><button>GraphQL</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <small>Click on a type to add a new content block.</small>
+          </div>
+      
+          </div>
+          </div>
+      
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__margin   ">
+        <div class="dsBlock__handle revealBlock dsBlock__left">
+          <button type="button" name="button" class="bt_icon block_event">
+            <img src="images/icons/icon-edit.svg" alt="">
+          </button>
+          <button type="button" name="button" class="bt_icon">
+            <img src="images/icons/icon-delete.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__content dsBlock__right"><p>This datastory uses Dutch death certificates from 1910-20 to map the temporal, spatial and social distribution of the 'Spanish' flu epidemic that hit The Netherlands in 1918-19. </p>
+      <h2>I. The dataset</h2>
+      <p>Thanks to the indexation efforts of archives and the LINKS project, large parts of the Dutch civil registry ('Burgerlijke Stand') are now becoming available for historians. The death certificates used here are retrieved from openarch.nl (available here). From the individual death certificates files per archive, one combined dataset was created. One challenge of working with these certificates is that that the same certificate may have been indexed by more than one archive.</p>
+      <p>The table below demonstrates the success of the standardization efforts, presented as Linked Data.</p>
+      </div>
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__new">
+        <div class=" dsBlock__left">
+          <button type="button" name="button" class="bt_icon newBlockHandler">
+            <img src="images/icons/icon-+.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__right">
+          <div class="newContent">
+            <div>
+            <strong>Text</strong>
+            <ul>
+              <li><button>Markdown</button></li>
+              <li><button>HTML</button></li>
+              <li><button>WYSISYG</button></li>
+              <li><button>Wiki</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Media</strong>
+            <ul>
+              <li><button>Image</button></li>
+              <li><button>Sound file</button></li>
+              <li><button>Video</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Query</strong>
+            <ul>
+              <li><button>SQL (Postgresql)</button></li>
+              <li><button>SQL (MySQL)</button></li>
+              <li><button>SPARQL</button></li>
+              <li><button>GraphQL</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <small>Click on a type to add a new content block.</small>
+          </div>
+      
+          </div>
+          </div>
+      
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__margin  dsBlock--wideExtra ">
+        <div class="dsBlock__handle revealBlock dsBlock__left">
+          <button type="button" name="button" class="bt_icon block_event">
+            <img src="images/icons/icon-edit.svg" alt="">
+          </button>
+          <button type="button" name="button" class="bt_icon">
+            <img src="images/icons/icon-delete.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__content dsBlock__right"><table id="DataTables_Table_0" class="d" role="grid" aria-describedby="DataTables_Table_0_info" >
+        <thead>
+          <tr role="row">
+            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 1.4%;" aria-label=""></th>
+            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1"  aria-label="year: activate to sort column ascending">year</th>
+            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1"  aria-label="n_deceased: activate to sort column ascending">n_deceased</th>
+            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1"  aria-label="percent_coded_placenames: activate to sort column ascending">percent_coded_placenames</th>
+            <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1"  aria-label="percent_coded_occupations: activate to sort column ascending">percent_coded_occupations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr role="row" class="odd">
+            <td>
+              <div>1</div>
+            </td>
+            <td>
+              <div><span>"1910"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"79575"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"97.8913"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"94.2689"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="even">
+            <td>
+              <div>2</div>
+            </td>
+            <td>
+              <div><span>"1911"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"86727"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"97.9499"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"94.6854"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="odd">
+            <td>
+              <div>3</div>
+            </td>
+            <td>
+              <div><span>"1912"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"74568"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.093"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"94.1525"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="even">
+            <td>
+              <div>4</div>
+            </td>
+            <td>
+              <div><span>"1913"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"76074"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.0414"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"94.3056"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="odd">
+            <td>
+              <div>5</div>
+            </td>
+            <td>
+              <div><span>"1914"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"79346"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"97.9583"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"92.8826"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="even">
+            <td>
+              <div>6</div>
+            </td>
+            <td>
+              <div><span>"1915"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"81322"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"97.8936"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"92.8669"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="odd">
+            <td>
+              <div>7</div>
+            </td>
+            <td>
+              <div><span>"1916"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"85333"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.0559"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"91.1806"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="even">
+            <td>
+              <div>8</div>
+            </td>
+            <td>
+              <div><span>"1917"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"89040"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.1267"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"93.9949"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="odd">
+            <td>
+              <div>9</div>
+            </td>
+            <td>
+              <div><span>"1918"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"115266"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.12"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"94.6783"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="even">
+            <td>
+              <div>10</div>
+            </td>
+            <td>
+              <div><span>"1919"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"88899"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.1833"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"91.7729"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+          <tr role="row" class="odd">
+            <td>
+              <div>11</div>
+            </td>
+            <td>
+              <div><span>"1920"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"83648"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"98.3239"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+            <td>
+              <div><span>"91.3896"<sup>^^<a target="_blank " href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a></sup></span></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__new">
+        <div class=" dsBlock__left">
+          <button type="button" name="button" class="bt_icon newBlockHandler">
+            <img src="images/icons/icon-+.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__right">
+          <div class="newContent">
+            <div>
+            <strong>Text</strong>
+            <ul>
+              <li><button>Markdown</button></li>
+              <li><button>HTML</button></li>
+              <li><button>WYSISYG</button></li>
+              <li><button>Wiki</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Media</strong>
+            <ul>
+              <li><button>Image</button></li>
+              <li><button>Sound file</button></li>
+              <li><button>Video</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Query</strong>
+            <ul>
+              <li><button>SQL (Postgresql)</button></li>
+              <li><button>SQL (MySQL)</button></li>
+              <li><button>SPARQL</button></li>
+              <li><button>GraphQL</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <small>Click on a type to add a new content block.</small>
+          </div>
+      
+          </div>
+          </div>
+      
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__margin   ">
+        <div class="dsBlock__handle revealBlock dsBlock__left">
+          <button type="button" name="button" class="bt_icon block_event">
+            <img src="images/icons/icon-edit.svg" alt="">
+          </button>
+          <button type="button" name="button" class="bt_icon">
+            <img src="images/icons/icon-delete.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__content dsBlock__right"><p>This datastory uses Dutch death certificates from 1910-20 to map the temporal, spatial and social distribution of the 'Spanish' flu epidemic that hit The Netherlands in 1918-19. </p>
+      <h2>I. The dataset</h2>
+      <p>Thanks to the indexation efforts of archives and the LINKS project, large parts of the Dutch civil registry ('Burgerlijke Stand') are now becoming available for historians. The death certificates used here are retrieved from openarch.nl (available here). From the individual death certificates files per archive, one combined dataset was created. One challenge of working with these certificates is that that the same certificate may have been indexed by more than one archive.</p>
+      <p>The table below demonstrates the success of the standardization efforts, presented as Linked Data.</p>
+      </div>
+      </div>
+      <div class="dsBlock dsBlock__layout dsBlock__new">
+        <div class=" dsBlock__left">
+          <button type="button" name="button" class="bt_icon newBlockHandler">
+            <img src="images/icons/icon-+.svg" alt="">
+          </button>
+        </div>
+        <div class="dsBlock__right">
+          <div class="newContent">
+            <div>
+            <strong>Text</strong>
+            <ul>
+              <li><button>Markdown</button></li>
+              <li><button>HTML</button></li>
+              <li><button>WYSISYG</button></li>
+              <li><button>Wiki</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Media</strong>
+            <ul>
+              <li><button>Image</button></li>
+              <li><button>Sound file</button></li>
+              <li><button>Video</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <strong>Query</strong>
+            <ul>
+              <li><button>SQL (Postgresql)</button></li>
+              <li><button>SQL (MySQL)</button></li>
+              <li><button>SPARQL</button></li>
+              <li><button>GraphQL</button></li>
+            </ul>
+          </div>
+      
+          <div>
+            <small>Click on a type to add a new content block.</small>
+          </div>
+      
+          </div>
+          </div>
+      
+      </div>
+    
+    
+    </div>
+
+    <div class="panel_edit fixedBottom" id="panel_edit">
+    
+      <div class="edit_header">
+        <div class="panel_edit_wrap panel_edit__split">
+          <div><strong>Edit markdown block</strong></div>
+          <button type="button" name="button" id="panelHandleButton" onclick="removeFocusFromBlock();" class="bt_icon">
+              <img src="images/icons/icon-arrow-down.svg" alt="">
+          </button>
+        </div>
+      </div>
+    
+      <div class="panel_edit_inner panel_edit_wrap">
+    
+    
+      <div class="edit_body">
+        <div class="edit_segments">
+          <a href="">Text1</a>
+          <a href="">Metadata</a>
+          <a href="">Notes and Comments</a>
+          <a href="">Provenance</a>
+          <a href="">Layout</a>
+        </div>
+        <div class="edit_workspace">
+          <label class="labelTxt" for="text1">
+              Metadata type
+              
+              <select name="" id="" class="hc_marginBot05">
+                  <option value="dct:title">Title</option>
+                  <option value="dct:bescription">Description</option>
+                  <option value="dct:created">Date Created</option>
+                  <option value="dct:language">Language</option>
+                  <option value="dct:type">Type</option>
+                  <option value="dct:references">References</option>
+              </select>
+          </label>
+          
+          <label class="labelTxt" for="text1">
+              Metadata value
+          
+              <div class="fieldRow hc_marginBottom05">
+                  <input type="text" id="text1" name="text1" class="hc_marginRight05">
+                  <button>Add</button>
+              </div>
+          </label>
+          
+          <div class="editList hc_marginTop1 hc_marginBot1">
+              <ul>
+                  <li>
+                      <div class="editList__text"><span class="hc_text--S"> dct:title</span><br>The dataset</div>
+                      <div class="editList__button">
+                          <button type="button" name="button" class="bt_icon block_event">
+                              <img src="images/icons/icon-edit.svg" alt="">
+                            </button>
+                      </div>
+                      <div class="editList__button">
+                          <button type="button" name="button" class="bt_icon">
+                          <img src="images/icons/icon-delete.svg" alt="">
+                        </button></div>
+                  </li>
+              </ul>
+          </div>      <label class="labelTxt" for="te">Markdown text
+              <textarea >
+              This datastory uses Dutch death certificates from 1910-20 to map the temporal, spatial and social distribution of the 'Spanish' flu epidemic that hit The Netherlands in 1918-19.
+              
+              ## I. The dataset
+              
+              Thanks to the indexation efforts of archives and the LINKS project, large parts of the Dutch civil registry ('Burgerlijke Stand') are now becoming available for historians. The death certificates used here are retrieved from openarch.nl (available here). From the individual death certificates files per archive, one combined dataset was created. One challenge of working with these certificates is that that the same certificate may have been indexed by more than one archive.
+              
+              The table below demonstrates the success of the standardization efforts, presented as Linked Data.
+              </textarea>
+          </label>      
+      </div>
+    
+      </div>
+    
+    
+      </div>
+    </div>
+
+
+
+<script src="js/datastories_overlay_interface.js" charset="utf-8"></script>
+
+</body>
+</html>
