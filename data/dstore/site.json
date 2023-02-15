@@ -2,10 +2,19 @@
   {
     "id": "5jqw9e823hd%%5",
     "template": "dstore/datastories.html",
-    "title": "INEO Data stories | The 'Spanish' Flu Epidemic in The Netherlands 1918-19",
+    "title": "Clariah Data stories | The 'Spanish' Flu Epidemic in The Netherlands 1918-19",
     "states": {
     },
     "project": "dstore",
     "file_name": "datastories.html"
+  },
+  {
+    "id": "5jqw9e81234123hd%%5",
+    "template": "dstore/datastories-browser.html",
+    "title": "Clariah Data stories | Browser",
+    "states": {
+    },
+    "project": "dstore",
+    "file_name": "datastories-browser.html"
   }
 ]
