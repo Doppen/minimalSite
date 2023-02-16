@@ -8,10 +8,41 @@
     <link rel="shortcut icon" href="images/favi-dstore.png" />
   </head>
   <body>
+<script>
+  function openDialog() {
+    document.getElementById("myDialog").showModal();
+  }
 
+  function closeDialog() {
+    document.getElementById("myDialog").close();
+  }
+</script>
 <div class="topHeader">
-  <img src="images/logo-ineo.png" alt=""><div class="">Data Stories</div>
+  <div class="topHeader__brand"><img src="images/logo-ineo.png" alt=""><div class="">Data Stories</div></div>
+  <div><button onclick="openDialog()">open</button></div>
+   
 </div>
+
+
+
+
+
+
+    <dialog id="myDialog" >
+      <div class="hc_list hc_list_noBullets hc_list_lines hc_list_interactive">
+        <ul>
+          <li>
+            <div>
+              The 1918-19 flu epidemic in The Netherlands
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+        <button onclick="closeDialog()">OK</button>
+
+    </dialog>
 
     <div class="dataStoryBlocks">
     
@@ -532,6 +563,9 @@
     
       </div>
     </div>
+
+
+    
 
 
 

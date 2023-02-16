@@ -71,10 +71,17 @@ p {
   height: $headerHeight;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding-left: $marginGap;
   padding-right: $marginGap;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
 
 
@@ -83,4 +90,28 @@ p {
     width: auto;
     margin-right: 2rem;
   }
+}
+
+dialog {
+  background: #e5e5e8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 700px;
+  height: 80vh;
+  border: none;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 23%, 0.165);
+
+}
+
+dialog::backdrop {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  //background: rgba(0, 0, 0, 0.3);
 }
